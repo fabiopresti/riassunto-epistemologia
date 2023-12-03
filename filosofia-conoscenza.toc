@@ -1,0 +1,44 @@
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\contentsline {section}{\numberline {1}Renè Descartes (1596-1650): infallibilismo ed internismo tradizionale}{4}{}%
+\contentsline {subsection}{\numberline {1.1}Riassunto del testo}{4}{}%
+\contentsline {subsection}{\numberline {1.2}L'argomento della prima meditazione: l'infallibilismo}{5}{}%
+\contentsline {section}{\numberline {2}Platone (V secolo a.C.): Teeteto: che cos'è la conoscenza?}{6}{}%
+\contentsline {section}{\numberline {3}L'analisi tripartita della conoscenza}{7}{}%
+\contentsline {subsection}{\numberline {3.1}Credenza}{7}{}%
+\contentsline {subsection}{\numberline {3.2}Verità}{7}{}%
+\contentsline {subsection}{\numberline {3.3}Giustificazione}{9}{}%
+\contentsline {section}{\numberline {4}Lo scetticismo: il paradosso dell'ignoranza}{10}{}%
+\contentsline {subsection}{\numberline {4.1}Validità del paradosso dal punto di vista esternista (Nozick)}{11}{}%
+\contentsline {section}{\numberline {5}Edmund Gettier (1927-2021): la critica dell'analisi tripartita}{13}{}%
+\contentsline {section}{\numberline {6}Robert Nozick (1938-2002): il sensibilismo}{14}{}%
+\contentsline {subsection}{\numberline {6.1}Prima formulazione}{14}{}%
+\contentsline {subsection}{\numberline {6.2}La quarta condizione}{16}{}%
+\contentsline {subsection}{\numberline {6.3}La relativizzazione ai metodi}{17}{}%
+\contentsline {subsection}{\numberline {6.4}Nozick vs Scettici}{17}{}%
+\contentsline {section}{\numberline {7}Duncan Pritchard: epistemologia antifortuna}{20}{}%
+\contentsline {subsection}{\numberline {7.1}I pro e contro di Nozick}{20}{}%
+\contentsline {subsection}{\numberline {7.2}L'analisi della prima posizione di Sosa}{22}{}%
+\contentsline {subsection}{\numberline {7.3}L'epistemologia antifortuna}{23}{}%
+\contentsline {section}{\numberline {8}Ernst Sosa (1940-): epistemologia della virtù (il modello AAA)}{25}{}%
+\contentsline {subsection}{\numberline {8.1}Sosa e il problema del sogno}{26}{}%
+\contentsline {section}{\numberline {9}Keith DeRose (1962-): il contestualismo}{28}{}%
+\contentsline {subsection}{\numberline {9.1}Il contestualismo}{28}{}%
+\contentsline {subsection}{\numberline {9.2}Plausibilità del paradosso dell'argomento scettico}{28}{}%
+\contentsline {subsection}{\numberline {9.3}Nozick in chiave contestualista}{29}{}%
+\contentsline {subsection}{\numberline {9.4}Confronto con le altre teorie}{30}{}%
+\contentsline {subsection}{\numberline {9.5}Metafisica e semantica}{31}{}%
+\contentsline {section}{\numberline {10}Alvin Goldman (1938-): l'affidabilismo}{32}{}%
+\contentsline {subsection}{\numberline {10.1}L'analisi ricorsiva}{32}{}%
+\contentsline {subsection}{\numberline {10.2}Obiezioni a Goldman}{34}{}%
+\contentsline {subsection}{\numberline {10.3}Giustificazione doxastica e proposizionale per esternisti ed internisti}{35}{}%
+\contentsline {section}{\numberline {11}Laurence Bonjour (1943-): una critica all'esternismo}{36}{}%
+\contentsline {subsection}{\numberline {11.1}Coerentismo e Fondazionalismo}{36}{}%
+\contentsline {subsection}{\numberline {11.2}Una formulazione adeguata dell'esternismo}{37}{}%
+\contentsline {subsection}{\numberline {11.3}Due ulteriori argomenti contro l'esternismo}{39}{}%
+\contentsline {section}{\numberline {12}Jhon Greco (1961-): una critica all'internismo}{40}{}%
+\contentsline {subsection}{\numberline {12.1}Primo argomento}{41}{}%
+\contentsline {subsection}{\numberline {12.2}Secondo argomento}{42}{}%
+\contentsline {subsection}{\numberline {12.3}Terzo argomento}{42}{}%
+\contentsline {subsection}{\numberline {12.4}Altre valutazioni di appropriatezza soggettiva non epistemiche}{43}{}%
+\contentsline {subsection}{\numberline {12.5}Possibili risposte interniste a Greco}{43}{}%

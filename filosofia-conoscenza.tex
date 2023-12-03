@@ -1,0 +1,659 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[italian]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{txfonts}
+\usepackage{pxfonts}
+\usepackage{placeins}
+\usepackage{graphicx}
+\newtheorem{teorema}{teorema}
+\newtheorem{esercizio}{esercizio}
+\newtheorem{esempio}{esempio}
+\newtheorem{caso}{caso}
+\newtheorem{applicazione}{applicazione}
+\newtheorem{dimostrazione}{dimostrazione}
+\newtheorem{principio}{principio}
+\newtheorem{corollario}{corollario}[teorema]
+\newtheorem{lemma}[teorema]{lemma}
+\newtheorem{osservazione}{osservazione}
+\newtheorem{definizione}{definizione}
+\newtheorem{proposizione}{proposizione}
+\makeatletter
+\def\d{\ensuremath\partial}
+\def\d{\ensuremath\partial\ }
+\def\n{\ensuremath\nabla}
+\def\n{\ensuremath\nabla\ }
+\def\th@plain{%
+	\thm@notefont{}% same as heading font
+	\itshape % body font
+}
+\def\th@definizione{%
+	\thm@notefont{}% same as heading font
+	\normalfont % body font
+}
+\makeatother
+\author{Fabio Prestipino}
+\title{Filosofia della conoscenza\\
+		un'introduzione all'epistemologia}
+\begin{document}
+	\maketitle
+	\newpage
+	\tableofcontents
+	\newpage
+\section{Renè Descartes (1596-1650): infallibilismo ed internismo tradizionale}
+\subsection{Riassunto del testo}
+Per fondare una conoscenza certa bisogna dubitare sistematicamente della conoscenza comune (scetticismo metodico). Per farlo non bisogna mostrare la falsità delle singole conoscenze comuni poiché le \textbf{fondamenta della conoscenza} (posizione fondazionalista classica, come approfondiremo nella sezione \ref{sec:Bonjour}), per essere solide, devono essere certe ed indubitabili, dunque ogni possibilità di dubbio porta a giudicare come falsa (fino a che non sarà fondata su basi più solide) ogni tipo di conoscenza, questo è talvolta detto \textbf{dubbio iperbolico}. Non è necessario smontarle una per una perché si attaccano direttamente i principi del sapere comune, su cui si basa tutto il resto: la conoscenza proveniente dai sensi. Poiché i sensi ingannano, e non siamo certi della corrispondenza fra immagine della realtà mediata dai sensi e realtà in sè, allora questi sono dubitabili. ATTENZIONE: il dubbio dei sensi è legittimo non perché qualche volta sono ingannevoli (come sostenuto, in modo semplicistico, nel \textit{Discorso}) ma perché esistono \textbf{scenari scettici}, come il sogno o l'inganno, tali che non possiamo escludere di farvi parte in un dato istante. Il fatto che nel \textbf{sonno} (scenario scettico 1) capita d'esser persuasi di star vivendo e di esser desti porta alla possibilità di dubitare la realtà stessa mediata dai sensi: chi garantisce non si stia sognando? Si potrebbe ribattere sostenendo che anche se i sogni distorcono la realtà comunque non possono far altro che riferirsi a concetti semplici come l'estensione, i colori, il tempo, ... che sono sempre tali sia nel sogno che nella veglia. Analogo è l'esempio del \textbf{pittore}, che nonostante possa dipingere cose inesistenti, queste saranno rappresentate come composizioni di enti semplicissimi che è apparentemente impossibile negare. Da ciò segue che tutti i saperi che hanno a che fare con enti composti (fisica, medicina, ...) sono dubitabili. Tuttavia questo argomento non si applica alla matematica, che ha a che fare con regole logiche che sono valide anche nel sonno (anche nel sonno è impensabile che \(2 + 3\) non faccia 5). Tuttavia neanche la matematica costituisce un sapere certo perché posso ipotizzare l'esistenza di un \textbf{Dio ingannatore} (scenario scettico 2) che ogni volta che penso a \(2 + 3\) mi porta erroneamente a credere faccia 5. Cartesio non indugia troppo sul tema del Dio ingannatore anche per paura dei teologi, accenna brevemente agli atei: anche se non fossi stato creato da Dio ma dal caso o dal fato, più imperfetto è il mio creatore più aumenta la probabilità che io mi possa ingannare poiché questa è un'imperfezione (teoria delle cause cartesiana). Ne segue infine che non c'è niente di cui non sia lecito dubitare, nonostante queste idee non certe costituiscano la base della mia comprensione del mondo e sia difficile sbarazzarsene. Descartes non è uno scettico perché il suo dubbio è finalizzato a trovare fondamenta più solide, la messa in dubbio è temporanea, Descartes inoltre si preoccupa di giustificare i motivi del dubbio. L'ipotesi del genio maligno è proprio formulata per avere un'idea forte che resti impressa anche quando, nella vita comune, ci si dimentica dell'incertezza della conoscenza (Dio ingannatore e genio maligno sono tuttavia equivalenti).
+\subsection{L'argomento della prima meditazione: l'infallibilismo}
+La teoria della conoscenza sostenuta da Descartes è l'\textbf{infallibilismo}, secondo cui conoscere la verità di una proposizione è incompatibile con la possibilità che la proposizione sia falsa, o equivalentemente che non può essere messa in dubbio. Nonostante le credenze fallibili possano essere giustificate razionalmente, queste non si elevano al livello di conoscenza fintanto che non sono assolutamente certe. La tesi cartesiana può essere schematizzata come segue (si consideri l'ordine numerico come l'ordine delle implicazioni): 
+\begin{enumerate}
+	\item Se mi trovo in uno scenario scettico (dormo o sono ingannato), potrebbe essere falso che p
+	\item Non posso escludere di trovarmi in uno scenario scettico
+	\item Non posso escludere che sia falso che p
+	\item Mi è lecito dubitare che sia vero che p
+	\item Non sono certo che p
+	\item Non so che p 
+\end{enumerate}
+Dove nell'ultimo passaggio è contenuta la tesi infallibilista: se la conoscenza richiede certezza assoluta e io non sono certo che p allora non so che p. Si noti inoltre che la conoscenza è concepita come relativa ad uno stato interno (dubbio ed indubitabilità chiamano in causa la psicologia dell'agente), questa concezione è detta \textbf{internista} e Cartesio ne è il più celebre rappresentante.\\
+Di che conoscenza parla Cartesio? Non distingue esplicitamente ma nel discorso moderno si individuano \textbf{tre tipi di conoscenza}:
+\begin{itemize}
+	\item Conoscenza diretta (knowledge by acquaintance): la familiarità con una persona o oggetto avvenuta mediante interazione causale con questo, solitamente espressa mediante complemento oggetto: "Io conosco Roma/Sam/quel libro/..."
+	\item Conoscenza nel senso di competenza (know how): "so guidare la macchina"
+	\item Conoscenza proposizionale (knowledge by description): è espressa da una proposizione che contiene il contenuto della conoscenza, "io so che la finestra è aperta".
+\end{itemize} 
+Possiamo inferire che il tipo di conoscenza a cui Cartesio si riferisce è quella dell'ultimo tipo, che è quella di nostro interesse in questa sede.\\
+Gli odierni teorici della conoscenza ritengono che l'infallibilismo sia troppo forte e che sia possibile la conoscenza anche senza un grado di certezza tanto elevato (i contemporanei sono contro l'infallibilismo, e dunque sostengono il fallibilismo, che può essere declinato in varie forme). Si tratta dunque di definire criteri alternativi di conoscenza: solitamente questi sono basati sulla possibilità di addurre buone giustificazioni alle proprie conoscenze, anche se queste non sono a prova d'errore. Questa è la posizione attorno alla quale si svolge il Teeteto.
+\newpage
+
+\section{Platone (V secolo a.C.): Teeteto: che cos'è la conoscenza?}
+In una parte di questo dialogo ci si chiede cosa sia la conoscenza. Inizialmente Teeteto fa esempi di conoscenza: matematica, arte del calzolaio, ... ma Socrate non vuole esempi, vuole definizioni, per cogliere l'essenza di ciò di cui si parla. Emergono dunque tre tesi:
+\begin{itemize}
+	\item Conoscenza è \textbf{sensazione} (aestesis): condizione necessaria e sufficiente della conoscenza è la sensazione. S sa che p se e solo se sente che p. Socrate confuta questa definizione perché la sensazione è relativa al soggetto mentre la conoscenza deve essere oggettiva. (Se io sento freddo allora è freddo, e se lui non sente freddo allo stesso tempo?)
+	\item Conoscenza è \textbf{opinione vera}: è certamente una condizione necessaria della conoscenza, in questo caso si sostiene che è anche sufficiente. Il controesempio proposto è quello del buon retore che in un tribunale persuade il giudice di una falsità: il giudice avrà una forte opinione erronea che non può costituire conoscenza.
+	\item Conoscenza è \textbf{opinione vera accompagnata da logos}: dove logos può essere inteso in tre modi, logos come parola (e dunque conoscenza = opinione vera espressa verbalmente) ma non può essere soltanto questo perché si torna al caso precedente, logos come enumerazione di componenti più semplici; logos come qualità distintiva. Sono tutte scartate: in nessuna accezione di logos la conoscenza. 
+\end{itemize}
+Il dialogo ha una conclusione aporetica, sappiamo solo cosa non è, ma non cosa è. Qual è l'intento del dialogo? Due famiglie di interpretazione: continuista e revisionista. In generale, la prima sostiene che Platone modifica la teoria delle forme nel tempo ma non smette di sostenerla mentre la seconda sostiene che dopo il Parmenide la accantona. Essendo il Teeteto successivo al Parmenide i continuisti sostengono che il finale aporetico sia una dimostrazione che senza la teoria delle forme la conoscenza non è possibile, essendo questo assurdo allora Platone sostiene la teoria delle forme. I revisionisti invece sostengono che, una volta accantonata la teoria delle forme Platone sostiene che non è possibile la conoscenza.
+
+\newpage
+
+\section{L'analisi tripartita della conoscenza}
+Spesso è stata attribuita a Platone, a causa della terza definizione di conoscenza, la posizione filosofica dell'"\textbf{analisi tripartita della conoscenza}". Questa è riassumibile come segue:\\
+S sa che p se e solo se:
+\begin{enumerate}
+	\item S crede che p (credenza)
+	\item \'E vero che p (verità)
+	\item La credenza di S che p è sempre giustificata (giustificazione)
+\end{enumerate}
+La tecnica di schematizzazione appena usata di una posizione filosofica è oggi largamente usata ed è detta \textbf{analisi filosofica}, nel Teeteto sono fornite tre analisi filosofiche della conoscenza. L'analisi appena esposta (detta \textbf{JTB: "justified true belief"}) si è affermata in tempi recenti ed è spesso frettolosamente attribuita a Platone sulla base della terza analisi da lui proposta. Questo è filologicamente sbagliato perché come visto la parola logos non ha l'accezione usata in questa analisi. (Precisiamo: le tre condizioni sono singolarmente necessarie, ma prese tutte e tre insieme sono anche sufficienti). Oggi quasi tutti gli epistemologi contemporanei condividono i primi due punti (conoscenza se e solo se credenza e verità) ma si dividono sul terza condizione; questa era ritenuta valida quasi da tutti prima degli anni '60 ma nel 1963 Gettier ("Is Justified True Belief Knowledge?") propone controesempi a questa teoria che riaprono il dibattito epistemologico. Prima di approfondire il dibattito aperto da Gettier mettiamo in chiaro i termini del discorso, secondo lo spirito analitico. La risposta a domande di forma "che cosa è ...?" (nel nostro caso ci interessa la conoscenza) non è semplicemente data dall'esplicitazione di condizioni necessarie e sufficienti, serve anche che siano \textbf{costitutive} di ciò che si vuole spiegare. Le tre condizioni necessarie e sufficienti della teoria JTB sono tali poiché riconducono il concetto di conoscenza a suoi costituenti più semplici. Approfondiamole:
+
+\subsection{Credenza}
+Il concetto di \textbf{Credenza} è ambiguo: da un lato si può vedere come uno stato psicologico che si sperimenta quando si accetta come vero un fatto, in questo caso ogni essere umano ha sempre credenze diverse perché gli stati psicologici sono unici; d'altra parte ci si può focalizzare sull'oggetto della credenza, in questo caso molti individui possono condividere la stessa credenza. Per disambiguare il termine ci si rifà al concetto di \textbf{proposizione}, ovvero l'insieme di tutti gli stati psicologici riguardanti lo stesso oggetto condividono lo stesso contenuto, che in epistemologia è detto "proposizione". Le proposizioni sono "thinkables and sayables": l'entità linguistica che contiene la proposizione è detta \textbf{enunciato}, il contesto è rilevante nella formulazione dell'enunciato, si creano difficoltà in enunciati simili di lingua diversa.
+\subsection{Verità}
+	Apparentemente i termini vero e falso sono comunemente usati come predicati attribuibili a proposizioni; in filosofia vi sono diverse accezioni di verità, a noi interessa la \textbf{verità proposizionale} (l'unica che tratteremo).
+\begin{itemize}
+	\item \textbf{Verità come corrispondenza}\\
+ 	La definizione classica di verità è data da Aristotele (Metafisica):\\\\
+ 	\textit{Dire di ciò che è che non è, o di ciò che non è che è è dire il falso, mentre dire di ciò che è che è, e di ciò che non è che non è, è il vero}.\\\\
+ 	\'E una tesi simmetrica, si basa sul presupposto che ogni conoscenza sia esprimibile nella forma soggetto-predicato (A è B) ma oggi sappiamo che non è sempre vero dunque questa definizione è sbagliata. Possiamo tradurre in termini moderni e più generali:\\\\
+ 	\textit{\'E vero che p se e solo se p}\\\\
+ 	dove p è un generico enunciato. \'E stato sostenuto (a ragione per il prof) che il nocciolo del nostro concetto di verità sta in questa definizione, ogni teoria deve comprenderla. Sempre nella Metafisica si trova una tesi asimmetrica:\\\\
+ 	\textit{Se è vero che p, è vero che p perché p, e non viceversa}\\\\
+ 	(il perché introduce l'asimmetria). \'E una tesi realista perché si parte dalla realtà e si va alla verità. Le due concezioni di verità aristoteliche sono indipendenti e possono coesistere.
+	Ad Aristotele è dunque attribuita la tesi della \textbf{verità come corrispondenza}: una proposizione è vera se il suo contenuto corrisponde con la realtà. Analogamente Tommaso sostiene "veritas est adequatio rei ad intellectus". Moore sposta il problema dalle cose (res) ai fatti; le diverse formulazioni corrispondono a diverse ontologie.
+	\item \textbf{Verità come coerenza}\\
+	\'E basata sulle relazioni interne al sistema di proposizioni accettato, questa tesi è idealista perché sposta il problema dalla realtà alla mente.
+	\item \textbf{Verità come limite ideale}\\
+	\'E detta \textbf{epistemica}, a differenza delle precedenti, perché ha a che fare con ciò che si può sapere, su dati acquisibili dall'uomo e formulano la verità in termini epistemici (ricerca, assenso, ecc.). Questo tipo di teorie rispondono alla critica alla teoria della corrispondenza riguardante l'impossibilità di attingere direttamente ai fatti in sè. Per Pierce (pragmatista) una proposizione è vera se tutti (limite ideale del vaglio di un'intera comunità) sono d'accordo con essa.	In modo più raffinato, la teoria della \textbf{verità come idealizzazione dell'accettabilità razionale} (sempre epistemica), sostenuta da H. Putnam, dice che una proposizione è vera se e solo se è razionale accettarla in una situazione epistemica ideale.
+	\item \textbf{Concezione deflazionistica della verità}\\
+	Formulata a fine '800 da Frege (a differenza delle precedenti due dette "classiche"), sostiene che la verità di un enunciato esprime solamente l'enunciato stesso: l'espressione "è vero che" è ridondante perché non aggiunge nulla al contenuto della proposizione. La teoria è detta deflazionista perché "sgonfia" il problema della natura della verità. Una celebre formulazione è quella di Horwich, secondo cui il predicato di verità è utile solo in quanto permette di esprimere facilmente concetti complessi (ad esempio su infinite proposizioni) ma che comunque non ha alcuna validità superiore. A ben vedere è esattamente quello che diceva Aristotele, spogliato della costruzione della corrispondenza, non esplicitata dallo stagirita. Attenzione: questa concezione non relativizza o nega il concetto di verità.
+\end{itemize}
+Oggi la verità epistemica, non è molto sostenuta (nonostante sia nata come teoria accettabile che non ha bisogno di un'impalcatura metafisica), perché è stato sostenuto come in questa concezione è insita una circolarità (ben nascosta). In generale le concezioni epistemiche riducono la potenza del concetto di verità rispetto alla teoria della corrispondenza. Ad oggi le due opzioni sono la teoria della corrispondenza e quella inflazionistica. 
+
+\subsection{Giustificazione}
+Classicamente, una credenza si dice giustificata (epistemicamente) se è basata su buone ragioni. Osserviamo innanzitutto che ai nostri fini dobbiamo restringerci alla \textbf{giustificazione epistemica}. 
+\begin{esempio}[La scommessa di Pascal]
+	L'argomento di Pascal della scommessa su Dio non è di tipo epistemico ma di tipo pragmatico perché le ragioni da lui addotte non vogliono mostrare l'esistenza di Dio ma il fatto che se è probabile che Dio esiste allora è bene credervi: non è il tipo di giustificazione che ci interessa (in particolare in questo caso si tratta di giustificazione pragmatica).
+\end{esempio}
+La giustificazione epistemica può essere "\textbf{tutto considerato}", cioè validata e non invalidabile o di "\textbf{prima facie}" o "pro tanto" cioè provvisoria, invalidabile. Sostenere che la credenza deve essere basata su una giustificazione "tutto considerato" è apparentemente più ragionevole ma più difficile perché si sbocca facilmente nell'infallibilità cartesiana.\\
+Si distingue inoltre la \textbf{giustificazione doxastica} da quella \textbf{proposizionale}: può accadere che vi siano buone ragioni per credere qualcosa ma nonostante ciò non la si creda o che vi siano buone ragioni ma si crede a qualcosa non per queste ma per wishful thinking; se si hanno buone ragioni si ha una giustificazione proposizionale (indipendentemente dal fatto che la credenza sia basata su queste o meno), mentre si ha una giustificazione doxastica se si hanno buone ragioni e se la credenza è basata su queste (più forte e generale). \textbf{Per avere una credenza serve una giustificazione doxastica} (e dunque anche proposizionale). 
+\newpage 
+
+\section{Lo scetticismo: il paradosso dell'ignoranza}
+Vi sono diversi tipi di scetticismo in base alla portata di questo, in epistemologia ci si interessa a scetticismi locali, riguardanti ambiti della conoscenza limitati, di particolare interesse è lo scetticismo riguardante l'esistenza del mondo esterno. Gli argomenti cartesiani giustificano la possibilità dello scetticismo riguardo al mondo esterno solo se si accetta la tesi infallibilista, tuttavia anche da una prospettiva fallibilista è possibile formulare argomenti scettici. Le tesi cartesiane riguardo lo scetticismo sono:
+\begin{itemize}
+	\item Se ci si trova in uno scenario scettico, non si sa che p (esempio dei cervelli in vasca: non è possibile ottenere conoscenza perché non si può avere verità riguardo al mondo esterno).
+	\item Se non si sa di non trovarsi in uno scenario scettico, non si sa che p (se non puoi essere certo di non essere in uno scenario scettico, non puoi avere certezze).
+\end{itemize}
+Chi sostenesse solamente il primo punto sarebbe più un complottista che uno scettico, perché crederebbe di essere in un preciso scenario scettico; se invece si sostiene anche il secondo punto si è scettici perché si sostiene che vi sono possibilità che sfuggono alla nostra conoscenza e che non ci permettono un fondamento certo di questa. Avvalendosi di questi punti è possibile formulare l'\textbf{argomento dell'ignoranza}, basato sul modus ponens:
+\begin{enumerate}
+	\item Non so che non mi trovo in uno scenario scettico
+	\item Se non so che non mi trovo in uno scenario scettico, non so che p
+	\item Non so che p
+\end{enumerate}
+che però permette di cadere nel \textbf{paradosso dell'ignoranza} (dove paradosso è da intendersi come la possibilità di dimostrare p e non p)
+\begin{enumerate}
+	\item Non so che non mi trovo in uno scenario scettico
+	\item Se non so che non mi trovo in uno scenario scettico, non so che \(\neg p\)
+	\item So che p
+\end{enumerate}
+Per capire in modo semplice il senso di queste proposizioni può essere utile sostituire p con "ho due mani". 
+\begin{osservazione}[La critica di Moore]
+	Vediamo una prima critica da parte di Moore: al modus ponens scettico si può contrapporre il tollens del senso comune
+	\begin{enumerate}
+		\item So che ho due mani
+		\item Se so che ho due mani, so che non mi trovo in uno scenario scettico
+		\item So che non mi trovo in uno scenario scettico
+	\end{enumerate}
+	per Moore lo scettico non ha il diritto di dire che non sappiamo di non trovarci in uno scenario scettico perché la validità dell'argomento di Moore o di quello scettico dipende solamente da quale proposizione fra (1) e (3) ci appare più plausibile (Moore è un filosofo del senso comune e parte da (3)). Tuttavia non è sufficiente far leva sul senso comune: l'esistenza del paradosso è un problema e va "disinnescato", cioè va dimostrata la verità di una e la falsità dell'altra o alternativamente va mostrato che il problema è mal posto. Come vedremo Moore è uno dei pochi filosofi che attaccano direttamente la prima premessa del paradosso dell'ignoranza.
+\end{osservazione}
+ Oggi gli epistemologi sostengono che il paradosso dell'ignoranza non dimostra che non abbiamo conoscenza ma che abbiamo una concezione di conoscenza fallace. Fin ora la concezione di conoscenza implicitamente adottata è quella \textbf{internista}, secondo cui la conoscenza necessita di buone ragioni a cui il soggetto ha accesso riflessivo. Il punto di vista alternativo è quello \textbf{esternista} secondo cui la conoscenza è legata al rapporto fra credenza e fatto reale, senza dare importanza alle condizioni interne di colui che si forma la credenza. Dal punto di vista internista il paradosso è inevitabile. Non resta che chiedersi se è possibile risolvere il paradosso adottando il punto di vista esternista, cioè: possiamo sapere che non ci troviamo in uno scenario scettico anche se non abbiamo buone ragioni per sostenerlo? Inoltre, una spiegazione adeguata di questo paradosso non si deve limitare a sventarlo ma deve render conto del perché appaia tanto convincente in prima analisi.
+ \subsection{Validità del paradosso dal punto di vista esternista (Nozick)}
+ Robert Nozick nelle Philosophical Explanation (1981) spiega come le premesse dell'argomento dell'ignoranza appaiano plausibili anche dal punto di vista esternista (mostrando così l'apparente vittoria dello scettico, ma in realtà lo porta a formulare una nuova analisi della conoscenza). Nozicik, esternista, sostiene che bisogna focalizzarsi sulla relazione fra stato di cose nel mondo e credenza, tralasciando tutti i passaggi intermedi, d'interesse per gli internisti. Dunque non serve aggiungere alla vera credenza una giustificazione (come classicamente si sostiene) poiché questa è intermedia fra credenza e verità. Tornando al paradosso dell'ignoranza, per accettarlo dal punto di vista esternista Nozick formula il \textbf{principio di chiusura} della conoscenza sotto implicazione logica
+\begin{principio}[Chiusura della conoscenza]
+	Se S sa che p e che p implica q allora S sa che q".\\
+	\[(p \wedge (p\rightarrow q)) \rightarrow q\]
+\end{principio}
+(La chiusura è intesa rispetto all'operazione di implicazione nell'insieme delle nostre conoscenze)
+\begin{esempio}[I teoremi matematici]
+	Se conosco le premesse p di un teorema, ma non i nessi che portano alla conclusione q, allora so che p ma non so che p implica q, dunque non so che q; contrariamente se conosco premesse e dimostrazione conosco anche q.
+\end{esempio}
+Per precisione notiamo che in realtà questa prima formulazione è troppo semplice perché nonostante la conoscenza di premesse e implicazioni potrei esser persuaso da un cattivo argomento ad altre conclusioni, possiamo riformularlo come: "Se S sa che p e che p implica q e deduce in maniera competente che q segue da p, giungendo a credere che q, allora S sa che q" (ma poco importa ai nostri fini perché le condizioni aggiuntive sono soddisfatte nel nostro caso).\\
+Applicando questo principio al paradosso dell'ignoranza, sostituendo
+\[p = ho\ due\ mani \]
+\[q = non\ mi\ trovo\ in\ uno\ scenario\ scettico\]
+anche un'esternista può convincersi del paradosso poiché dal principio di chiusura è possibile ricavare il secondo principio cartesiano, da cui segue il paradosso dell'ignoranza. 
+\begin{teorema}[Chiusura implica scetticismo]\label{thm:chiusura-scetticismo}
+	Se è valido il principio di chiusura della conoscenza allora è valido il secondo principio cartesiano, cioè non è possibile la conoscenza.
+\end{teorema}
+\begin{dimostrazione}
+	La dimostrazione del secondo principio cartesiano avviene per contrapposizione applicata al principio di chiusura. La contrapposizione è logicamente espressa da
+	\[(A\rightarrow B) \Leftrightarrow (\neg B \rightarrow \neg A)\]
+	applicandola al principio di chiusura si ha
+	\[\neg(q) \rightarrow \neg(p \wedge (p\rightarrow q))\]
+	la negazione dell'et equivale a negare uno dei due (si ha una diramazione), ma nel paradosso dell'ignoranza si ha come antecedente (accettato perché garantito dallo scettico) \((p\rightarrow q)\) dunque non possiamo negarlo, allora resta solo un caso possibile
+	\[\neg q \rightarrow \neg p\]
+	che è proprio il paradosso dell'ignoranza: "Se non so che non mi trovo in uno scenario scettico, allora non so che ho due mani". L'argomento dell'ignoranza sembra così inattaccabile, conducendoci alla conclusione che non possiamo sapere di non trovarci in uno scenario scettico! 
+\end{dimostrazione}
+Essendo convinto che la conoscenza è possibile, Nozick deduce da questa derivazione che la corrente concezione di conoscenza è erronea e tenta di riformularla. Prima di approfondire la teoria della conoscenza di Nozick bisogna accennare ad un fondamentale antecedente: il lavoro di Edmund Gettier.
+
+\newpage
+\section{Edmund Gettier (1927-2021): la critica dell'analisi tripartita}
+Nel 1963 pubblica il celebre articolo "Is Justified True Belief Knowledge?" che critica la validità dell'allora ben stabilita teoria JTB. Gli epistemologi del tempo si convinsero della validità dell'articolo che portò alla riapertura di un fecondo dialogo epistemologico. In particolare Gettier propone dei controesempi alle principali formulazioni della teoria dell'analisi tripartita, detti "casi Gettier", formulati in opposizione alle formulazioni di Chisolm ed Ayer (abbiamo già visto in Platone la prsentazione del controesempio del giudice come confutazione della possibilità della conoscenza). Le assunzioni di Gettier sono il fallibilismo e la \textbf{chiusura della giustificazione} sotto implicazione logica (analoga alla chiusura della conoscenza)
+\begin{principio}[Chiusura della giustificazione]
+	Se S è giustificato a credere che p e p implica q allora S è giustificato a credere che q.\\
+	(Specificando che S deduce q da p correttamente e accetta q come risultato della deduzione)
+\end{principio}
+Possiamo ora vedere il primo dei due casi Gettier ( il secondo è concettualmente simile al primo e non è necessario esporlo):
+\begin{caso}[primo caso Gettier]	\textit{Jones è l'uomo che otterrà l'impiego e Jones ha dieci monete in tasca}\\
+	\(\rightarrow\) \textit{L'uomo che otterrà l'impiego ha dieci monete in tasca.}\\\\
+	Per il principio di chiusura della giustificazione, S è giustificato a credere all'implicazione vista, (cioè che l'uomo che otterrà l'impiego ha 10 monete in tasca). Ora, continua Gettier, si da il caso che il capo di Jones si era sbagliato e in realtà S ottiene l'impiego e casualmente capita che anche S abbia dieci monete in tasca. Ne segue che la credenza è vera ed è giustificata, le tre condizioni dell'analisi tripartita sono soddisfatte. Tuttavia risulta difficile dire che S sa che l'uomo che verrà assunto ha dieci monete in tasca, essendo questo sapere puramente casuale; contrasta con la nostra concezione intuitiva di conoscenza.
+\end{caso}
+
+Per risolvere il problema sollevato da Gettier non resta che riformulare l'analisi della conoscenza, ciò può essere fatto in due modi: aggiungendo ulteriori condizioni all'analisi tripartita o sostituire completamente la terza condizione della giustificazione (le prime due sono accettate da tutti gli epistemologi come autoevidenti). I primi venti anni della storia dell'epistemologia post-Gettier si sono basati sulla prima strada ma è sempre stato possibile trovare un controesempio.
+\newpage
+\section{Robert Nozick (1938-2002): il sensibilismo}
+\subsection{Prima formulazione}
+Nozick seguirà la seconda strada: vuole riformulare l'analisi tripartita sostituendo la terza condizione. Nel 1981 pubblica le "Phylosophical explanations", in cui dichiara di ispirarsi al precedente lavoro di Goldman (sezione \ref{sec:goldman}), che sosteneva una "teoria causale della conoscenza empirica" per la quale sostituisce la giustificazione con l'esistenza di un'appropriata relazione causale fra il fatto che rende vera la proposizione e la proposizione stessa. In questo modo si segue l'approccio esternista, cioè quello di tralasciare tutto ciò che si interpone fra credenza e realtà, per considerare solo i rapporti fra questi.
+\begin{esempio}[Teoria causale]
+	La mia credenza che la finestra è aperta è in relazione causale con il fatto che la finestra è aperta; questa relazione causale rende la mia credenza conoscenza. Se avessi visto l'ologramma di una finestra aperta, la relazione causale non sussiste più dunque la credenza non costituisce conoscenza.
+\end{esempio}
+Il problema di questa formulazione è che la teoria di Goldman si applica solo a fatti empirici, Nozick vuole estenderla anche alla conoscenza astratta (come quella matematica, morale, ...). La formulazione di Nozick è basata sulla sostituzione della terza condizione con un condizionale al congiuntivo (subjunctive conditional), approfondiamo dunque i tre casi possibili di condizionale:
+\begin{itemize}
+	\item \textbf{Condizionale materiale} ($\rightarrow$): è il condizionale della logica proposizionale, ha la caratteristica che (ricordando la tavola di verità) può essere vero anche se non vi sono legami fra p e q poiché se p è falso e q è vero \(p\rightarrow q\) è vero, indipendentemente dal contenuto di p. Nella \textbf{semantica dei mondi possibili}, basta sapere che nel mondo attuale q sia vero per esser certi della verità dell'implicazione materiale (è vero che "se ho 5 dita allora 2+2 = 4" è vera nel mondo attuale ma non è logicamente contraddittorio pensare ad un mondo possibile in cui ho 4 dita).
+	\item \textbf{Condizionale necessario} ($\Rightarrow$): \'E più forte del condizionale materiale perché q deve essere vero in tutti i mondi possibili, cioè la falsità di q deve produrre una contraddizione logica ("se c'è qualcuno in questa stanza, la stanza non è vuota" è vera in tutti i mondi possibili perché se fosse falsa avremmo una contraddizione della definizione di "stanza vuota"); si osservi che si sta supponendo che le regole della logica sono le stesse in tutti i mondi possibili, che sta alla base del concetto di mondi possibili. Essendo la matematica fondata sulla logica, allora l'implicazione matematica è sempre di tipo necessario, poiché la negazione di un enunciato matematico porterebbe ad una contraddizione logica.
+	\item \textbf{Condizionale congiuntivo} ($\boxright$): a metà strada fra i due precedenti, "\(p\boxright q\)" si legge "Se non fosse vero che p, S non crederebbe che q" (per questo è anche detto congiuntivo contro fattuale). ATTENZIONE: non leggerlo al condizionale indicativo, è un errore. In termini di mondi possibili, questo condizionale è vero solo nei mondi possibili più vicini al mondo attuale perché differiscono da questo almeno per l'antecedente p. In realtà Nozick stesso dice che questo punto di vista non è molto utile perché si pone il problema di una "metrica dei mondi possibili" difficilmente risolubile (come si fa a dire quali sono più vicini?). Questo è il tipo di condizionale di nostro interesse, su cui si basa l'analisi della conoscenza di Nozick. 
+\end{itemize}
+L'analisi della conoscenza di Nozick può essere formulata come segue:\\
+S sa che p se e solo se:\\
+\begin{enumerate}
+	\item è vero che p
+	\item S crede che p
+	\item Se non fosse vero che p, S non crederebbe che p
+	\item Se fosse vero che p, S crederebbe che p
+\end{enumerate}
+(tralasciamo per ora la quarta condizione, che tratteremo in seguito). Il fatto più interessante di questa formulazione è che risolve il problema dei casi di Gettier, in quanto questi non soddisfano la terza condizione: p = "la persona che prenderà l'impiego ha dieci monete in tasca" è vera ed S la crede, ma anche se Jones non avesse dici monete in tasca, S crederebbe che Jones ne ha dieci, dunque questa credenza non costituisce conoscenza, risolvendo il problema di Gettier.\\
+Un altro punto a favore dell'analisi di Nozick è il fatto che riesce a catturare un'altra idea che dopo l'articolo di Gettier si era diffusa fra gli epistemologi: per sapere che p non è necessario escludere tutte le altre possibilità, ma solo quelle logicamente rilevanti (mossa antiscettica contro il paradosso dell'ignoranza). 
+\begin{caso}[I fienili finti]
+	Passando in macchina un osservatore in condizioni psicofisiche ottimali vede un fienile e dice "quello è un fienile", siamo portati a dire che egli sa che quello è un fienile. Se tuttavia la zona è piena di fienili finti, perché ad esempio parti di un set cinematografico abbandonato, ipotizzando che l'unico fienile reale è quello indicato dall'osservatore, diremmo ancora che sa che quello è un fienile? Siamo meno propensi a dirlo nonostante la credenza sia vera.\\
+	Questo potrebbe portarci a dire che non sapeva neanche nel primo scenario che quello era un fienile (avvicinandoci a posizioni scettiche). Secondo la \textbf{teoria delle alternative rilevanti} però nel primo caso ha conoscenza perché l'alternativa dei fienili finti, per quanto possibile, non è rilevante; nel secondo caso non ha conoscenza perché per le informazioni che abbiamo l'alternativa dei fienili finti è rilevante.
+\end{caso}
+Il problema della teoria delle alternative rilevanti è quello di fornire un criterio di rilevanza. Nel caso precedente la rilevanza è ovvia ma se ad esempio da una settimana i falsi fienili sono stati rimossi, è ancora un'alternativa rilevante? Serve un criterio preciso. Nozick mostra che la sua analisi della conoscenza permette di trovarlo usando il congiuntivo condizionale (e che quindi la teoria delle alternative rilevanti è implicita nella sua analisi della conoscenza). Il criterio è il seguente:\\\\
+\textit{Un'alternativa è rilevante se e solo se si darebbe se le cose stessero diversamente}.\\\\
+Nei termini del nostro esempio: se quello osservato non fosse un fienile reale, sarebbe un fienile di cartapesta? Se sì allora è rilevante, se no non lo è.
+\subsection{La quarta condizione}
+Quando una conoscenza rispetta la terza condizione si dice che questa è \textbf{sensibile} alla falsità della proposizione, se rispetta anche la quarta si dice che la credenza \textbf{tracks the truth}. La quarta condizione esprime la sensibilità alla verità della proposizione, la sua espressione è un raro caso di congiuntivo condizionale non controfattuale, detto \textbf{condizionale aperto}
+\begin{esempio}[Condizionale aperto]
+	Ho una cartina in mano e dico: "se fossimo qui dovremmo andare a sinistra, se fossimo qui dovremmo andare a destra" (indicando due punti diversi sulla cartina). 
+\end{esempio}
+Nella semantica dei mondi possibili questo condizionale è vero in quelli vicini al mondo attuale in cui è vero che p e accade anche che S crede che p. 
+\begin{esempio}[Quarta condizione]
+	Siamo in un aula con n ragazzi, una finestra aperta ed un proiettore acceso. Si considerino le seguenti proposizioni:\\
+	"C'è la finestra aperta ed il proiettore acceso"\\
+	"C'è la finestra aperta ed il proiettore spento"\\
+	"C'è la finestra aperta e ci sono n-1 persone"\\
+	"C'è la finestra chiusa ed il proiettore è acceso"\\
+	Questi quattro casi individuano quattro mondi possibili vicini, nei primi tre è vero che p ed S crede che p, nell'ultimo è falso che p ed S non crede che p. Ne segue che nei mondi possibili vicini, se ci fosse la finestra aperta, S crederebbe che è aperta, dunque la quarta condizione è rispettata. E dalla quarta proposizione segue che se non fosse aperta non crederei che lo è dunque la conoscenza tracks the truth. 
+\end{esempio}
+A che serve la quarta condizione? Per capirlo introduciamo un celebre scenario scettico
+\begin{caso}[Cervelli in vasca su $\alpha$-centauri]
+	In realtà la percezione della realtà che abbiamo deriva da impulsi che ci vengono inviati da dei super-psicologi, noi in realtà siamo dei cervelli in una vasca su $\alpha$-centauri. Ad un certo punto questi psicologi ci stimolano la credenza vera di essere dei cervelli su $\alpha$-centauri. Possiamo dire che questa sia conoscenza? La terza condizione è soddisfatta, infatti se non fossi un cervello, non crederei di esserlo; questo va contro l'intuizione secondo cui questa credenza non costituisce sapere. Osserviamo invece che la condizione quattro non è soddisfatta: Se fossi un cervello (considerando i mondi vicini in cui lo sono ma gli psicologi non mi mandano impulsi in modo da farmi credere di esserlo), NON crederei di esserlo. 
+\end{caso}
+Un altro motivo per cui è necessario introdurre la quattro è che riesce a gestire il seguente caso
+\begin{caso}[Dittatore assassinato]
+	In uno stato dittatoriale si assassina il dittatore ma la censura non vuol fare uscire la notizia. Un giornale riesce a diffonderla ma poi la censura gli fa pubblicare altri articoli che confutano il primo. Tutti si formano la falsa credenza (ma giustificata dal fatto che il giornale è una fonte d'informazione) che il dittatore non sia morto. S legge solo il primo giornale ma non il secondo dunque ha la credenza vera che il dittatore è morto. Costituisce conoscenza? Intuitivamente diremmo di no perché il fatto che non sia venuto a contatto con il secondo giornale è del tutto fortuito. La terza condizione è soddisfatta perché se non fosse stato ucciso il dittatore non ci avrebbe creduto. La quarta tuttavia non è soddisfatta: nei mondi vicini in cui il dittatore è stato ucciso ma S ha letto il giornale, S NON avrebbe creduto alla sua morte. 
+\end{caso}
+Si osservi infine che la quarta condizione permette di trattare le verità necessarie, come quelle matematiche, in cui la (3) è destinata a fallire: se infatti la negazione di verità necessarie per definizione porta a contraddizione logica, il condizionale controfattuale non può essere applicato. Rimane solo la quarta condizione, che però gestisce bene la conoscenza matematica: questa esclude infatti il sapere dogmatico, che in matematica non può essere considerato come conoscenza. Se S avesse saputo da uno sconosciuto che p e ci avesse creduto, anche se p è vera, la (4) non è soddisfatta in quanto esiste un mondo possibile vicino in cui lo sconosciuto gli fa credere che \(\neg p\).\\ 
+ 
+\subsection{La relativizzazione ai metodi}
+In realtà l'analisi di Nozick fin ora presentata è solo una prima forma, la forma completa vede l'aggiunta della cosiddetta \textbf{relativizzazione ai metodi}.
+Per illustrarla vediamo due casi:
+\begin{caso}[Della nonna]
+	Una nonna vede il nipote e crede che stia bene (non nasconde nessuna malattia, potremmo sostituire dicendo crede che sta in piedi). Lo sa? Non soddisfa la (3) perché se non fosse stato bene non sarebbe andato ed i parenti avrebbero mentito alla nonna sulla salute per non farla preoccupare. Nel primo caso il metodo di inferenza della nonna è sensibile perché basato sulla vista, nel secondo caso il metodo non lo è perché basato su una menzogna. L'analisi dipende dal metodo.
+\end{caso}
+\begin{caso}[Del padre e figlio]
+	Un figlio è imputato, si fa un processo e risulta innocente. Il padre ha sempre creduto la sua innocenza, ma con due metodi d'inferenza diversi: uno basato sulle evidenze del processo e uno sulla fiducia incondizionata nel figlio. Entrambi i metodi sono veri ma il primo è sensibile, il secondo no, perché se il figlio fosse stato colpevole le evidenze avrebbero testimoniato questo fatto ma la fiducia nel figlio non sarebbe venuta meno. Da ciò segue che nonostante l'analisi deve dipendere dal metodo, e vi sono più metodi in gioco, quando questi non divergono, il caso torna ad esser banale.
+\end{caso}
+A ben vedere la relativizzazione ai metodi si applica solo quando una credenza è \textbf{sovradeterminata}, cioè quando vi sono due o più metodi in gioco, e quando vi è \textbf{divergenza degli esiti} dei diversi metodi (altrimenti basta usare la teoria di base precedentemente esposta). In questi casi\textbf{ bisogna considerare solo il metodo con più peso} (che non è superato dagli altri, usando le parole di Nozick), ma come si fa a determinare? Lo si fa mediante la controfattualità, cioè chiedendoci "quale metodo prevarrebbe se non fosse vero che...".
+\subsection{Nozick vs Scettici}
+Siamo partiti dal fatto che Nozick mostra che anche da un punto di vista esternista il paradosso scettico è un problema, consequenzialmente propone una nuova analisi della conoscenza per gestire gli scettici. Vediamo ora in che modo ci riesce. Nozick fa una premessa fondamentale: la filosofia non ha la pretesa di dimostrare, di imporsi in modo coercitivo, sostiene addirittura che non è possibile dimostrare che non siamo cervelli in vasca; la filosofia serve per fornire buone ragioni a se stessi per cui è possibile arginare le istanze scettiche con una buona definizione di conoscenza. Nozick individua due strategie che gli scettici adottano per sostenere le loro istanze:
+\subsubsection*{Prima strategia scettica}
+Lo scettico mostra che esistono mondi possibili (scenari scettici come quello dei cervelli) in cui è vero $\neg p$ ma S crede che p. Cioè, lo scettico sostiene la contemporanea validità della condizione di sensibilità (3) e di (R)
+\begin{itemize}
+	\item[(3)] Se non fosse vero che p, S non crederebbe che p
+	\item[(R)] Se non fosse vero che p, S crederebbe che p 
+\end{itemize}
+Tornando all'esempio di prima, nello scenario scettico dei cervelli:
+\begin{itemize}
+	\item[(3)] Se non fosse vero che ho due mani, non crederei che ho due mani
+	\item[(R)] Se non fosse vero che ho due mani (perché sono un cervello), crederei che ho due mani (perché mi mandano impulsi)
+\end{itemize}
+In realtà perché lo scettico trionfi è sufficiente dimostrare la contemporanea validità di (3) e \((T) = \neg (3)\) che è più debole di (R). Nozick sostiene che questo tipo di argomentazione non funziona perché dobbiamo considerare mondi vicini in cui vale (T) ma i mondi citati dagli scettici sono sempre molto distanti (non sono alternative rilevati). Non è una dimostrazione perché il concetto di distanza non è ben definito, manca una metrica, ma comunque argina gli scettici perché l'intuito ci dice che è improbabile che siamo in un lontano scenario scettico, è un autoconvincimento non coercitivo. Nozick da ragione all'inconfutabilità stretta dello scettico.
+\subsubsection*{Seconda strategia scettica}
+In premessa, Nozick definisce il seguente concetto: due mondi possibili sono \textbf{doxasticamente identici} se e solo se vale che nell'uno e nell'altro S avrebbe esattamente le stesse credenze. Osserviamo dunque che lo scenario scettico e quello che riteniamo essere il mondo attuale sono doxasticamente identici.\\
+Nonostante non sia dimostrabile che non siamo in uno scenario scettico, proprio perché doxasticamente identici, ciò non pone una barriera invalicabile alla conoscenza: da qui a dire che non è possibile la conoscenza sembra esserci un piccolo passo ma non è lecito! Esaminiamo il piccolo passo: questo è basato sul principio di chiusura della conoscenza, come visto nel teorema \ref{thm:chiusura-scetticismo}, secondo cui se non sappiamo di essere in uno scenario scettico, e vale la chiusura, allora non è possibile la conoscenza. Nozick sorprendentemente sostiene che il principio di chiusura della conoscenza non è valido. 
+\begin{teorema}[Non validità della chiusura della conoscenza]
+	La conoscenza non è chiusa sotto implicazione perché la condizione della conoscenza (3) non è chiusa per implicazione.
+\end{teorema}
+\begin{dimostrazione}
+	Consideriamo l'implicazione\\
+	p = ho due mani $\rightarrow$ q = non sono un cervello su $\alpha$-centauri\\
+	la mia conoscenza di avere due mani è vera, giustificata e sensibile, perché rispetta (3); inoltre implica q. Per la chiusura avremmo che anche q deve essere sensibile. Osserviamo però che se non fosse vero che non sono un cervello su $\alpha$-centauri, cioè (doppia negazione) se fosse vero che sono un cervello su \(\alpha\)-centauri, allora continuerei a credere che ho due mani. q non è sensibile, la (3) non è chiusa!, dunque la conoscenza non è chiusa per implicazione. da questo segue che la seconda strategia scettica è confutata, al caro prezzo di rifiutare la chiusura della conoscenza.
+\end{dimostrazione}
+In particolare Nozick afferma che "lo scettico non può avere ragione due volte": la prima e la seconda strategia sono contraddittorie perché la prima a ben vedere si basa sulla non chiusura di (3) mentre la seconda si basa sulla chiusura. Tutto sommato, lo scettico non è stato confutato (solo parzialmente) ma è stato fortemente arginato.\\
+Infine Nozick compara la sua soluzione con quella di Hume, riprendendo un passo dal "Trattato sulla natura umana" in cui afferma che fintanto che sta solo nel suo studio il filosofo cade nelle istanze scettiche ma quando esce e vive normalmente la sua natura lo porta a scordarsene e a considerarle assurde; per Nozick nello studio considera mondi possibili lontani mentre nella vita normale ha a che fare con proposizioni concernenti il mondo attuale o mondi vicini, dunque nel primo caso lo scettico ha la meglio, nel secondo no.
+\newpage
+\section{Duncan Pritchard: epistemologia antifortuna}
+\subsection{I pro e contro di Nozick}
+Abbiamo già visto vari punti a favore di Nozick, possiamo aggiungere che la sua analisi gode (secondo Pritchard) della proprietà di essere \textbf{antifortuna} (che è l'idea di base che Pritchard approva), cioè di escludere dal dominio della conoscenza i casi in cui questa deriva da circostanze fortuite. In particolare è la terza condizione ad essere antifortuna, come vediamo dal caso dell'orologio di Bertrand Russell
+\begin{caso}[Dell'orologio]
+	Un orologio che ha sempre funzionato si ferma alle 8.20, in questo istante S lo guarda e si forma la credenza che sono le 8.20, è conoscenza? No perché è fortuita, se fosse passato un minuto dopo sarebbe stata una credenza falsa. Vediamo che non supera la (3): Se non fosse vero che sono le 8.20, S crederebbe che sono le 8.20!
+\end{caso}
+Un'altro punto a favore è che gestisce anche il seguente caso:
+\begin{caso}[Della lotteria]
+	Su un milione di biglietti uno solo è vincente, S lo compra e si forma la credenza giustificata dalla teoria delle probabilità che il biglietto è perdente, ed effettivamente lo è. Non diremmo che S sa di aver perso ed infatti la (3) non è rispettata: Se non fosse vero che S ha perso,  crederebbe di aver perso. 
+\end{caso}
+Pritchard osserva che i casi come quello dell'orologio rientrano nella tipologia dei casi Gettier, sono cioè basati su situazioni in cui normalmente l'agente avrebbe avuto una credenza falsa e giustificata ma fortuitamente questa risulta vera; i casi come quello della lotteria invece sono diversi in quanto la credenza non è basata sulla fortuna ed è infatti vera e giustificata, ma non costituisce conoscenza (probabilità $\neq$ conoscenza). La condizione di sensibilità gestisce correttamente entrambi. 
+Nonostante Pritchard consideri un punto a favore di Nozick la capacità di arginare lo scetticismo, non accetta la possibilità di rifiutare la chiusura della conoscenza (che Nozick ritiene necessaria per poter gestire gli scettici), poichè la giudica estremamente intuitiva; questa è la critica più frequente sollevata a Nozick. In particolare Pritchard sostiene che l'analisi della conoscenza di Nozick non costringe a rifiutare la chiusura per confutare gli scettici, a differenza di quanto precedentemente dimostrato (Pritchard tenta di salvare Nozick da se stesso). Com'è possibile? In realtà Pritchard ha in mente la formulazione finale di Nozick, cioè quella della \textbf{relativizzazione ai metodi}. Vediamo come Pritchard risolve il caso dei cervelli senza rinunciare alla chiusura:
+\begin{caso}[Cervelli in vasca per Pritchard]
+	La credenza di non essere un cervello in una vasca nel mondo attuale si forma mediante metodi che sfruttano le facoltà percettive. Applicando la (3) per verificare che questa sia una conoscenza mi chiedo: se fossi un cervello in una vasca, crederei di esserlo (usando lo stesso metodo di prima)? Se si considera il metodo del cervello uguale a quello usato nel mondo attuale, come fa Nozick, allora si, lo crederei ugualmente con lo stesso metodo e quindi non avrei conoscenza di non esserlo, gli scettici vincono. Tuttavia, se i metodi sono considerati diversi, come fa Pritchard, allora non è vero che lo crederei ugualmente con lo stesso metodo e quindi avrei conoscenza di non essere un cervello in vasca!
+\end{caso}
+Ma perché Nozick ritiene i due metodi uguali? Pritchard spiega che ciò è dovuto al fatto che nonostante Nozick si dichiari esternista, egli intenda internisticamente il processo di determinazione dei diversi metodi: per Nozick infatti due metodi che sembrano uguali al soggetto, internamente, sono uguali. Nel caso dei cervelli i due metodi sono percepiti come uguali perché i super psicologi mandano i medesimi impulsi e dunque i metodi sono uguali. Per Pritchard è una contraddizione mischiare esternismo ed internismo in tal modo e Nozick è consapevole delle difficoltà implicite nella determinazione dei metodi. Per mostrare l'internismo di Nozick e la sua problematicità vediamo il seguente caso: 
+\begin{caso}[Sessatore di pulcini 1]
+	 Vi sono degli agenti capaci di individuare affidabilmente il sesso dei pulcini solamente entrandovi a contatto. Questi inoltre credono erroneamente di usare la vista ma in realtà usano l'olfatto (non sanno il metodo). Gli internisti negano che quella del sessatore sia conoscenza perché non è capace di addurre buone ragioni mentre gli esternisti sostengono che questa sia conoscenza perché non tengono in conto lo stato interno dell'agente ma solo la capacità di offrire responsi esatti.
+\end{caso}  
+\begin{caso}[Sessatore di pulcini 2]
+	Consideriamo due agenti: uno è un genuino sessatore di pulcini mentre l'altro crede solamente di esserlo, supponiamo inoltre che l'esperienza che provano i due nel tentare di individuare il sesso è esattamente la stessa. Per Nozick, che distingue i metodi internisticamente, il metodo usato dai due è lo stesso, nonostante esternisticamente uno dei due abbia conoscenza mentre l'altro no! La distinzione internistica si contrappone ad una concezione generalmente esternista della conoscenza. 
+\end{caso}
+Tuttavia, anche se si dovesse risolvere il problema del rifiuto della chiusura come propone Pritchard, è possibile trovare dei casi in cui l'analisi di Nozick è troppo forte. Il seguente caso è proposto da Sosa:
+\begin{caso}[Scivolo di spazzatura]
+	In un condominio americano ogni casa ha un accesso ad uno scivolo che porta i rifiuti fino al sotterraneo. S lascia un rifiuto nello scivolo funzionante, sa che arriva a fondo? Per Nozick (ed in generale per le teorie basate sulla sensibilità) non lo sa perché se non arrivasse lui ci crederebbe comunque, l'intuito però ci porta a dire che lo sa. Si osservi che non gestire un caso così tipico di conoscenza è un grave difetto del sensibilismo.
+\end{caso}
+Esistono inoltre casi in cui l'analisi di Nozick è troppo debole
+\begin{caso}[Simulatori di dolore]
+	In una città tutti simulano di provare dolore tranne un uomo che manifesta dolore solo quando lo prova, S arriva in città e vede che l'uomo normale, che effettivamente prova dolore, mostra dolore. S si forma la credenza vera che l'uomo prova dolore. S ha conoscenza perché se l'uomo non avesse provato dolore non lo avrebbe creduto. Nonostante ciò intuitivamente non ci sembra ci sia conoscenza perché se avesse incontrato un qualsiasi altro individuo sarebbe stata una credenza falsa. 
+\end{caso}
+Uno dei più forti controesempi a Nozick è quello di Kripke (colpo fatale a Nozick).
+\begin{caso}[Red barns]
+	La periferia è piena di fienili falsi per far piacere ai turisti, che hanno la facciata blu. S vede un fienile rosso (che effettivamente è tale) e si forma la credenza. Considerando p = è un fienile rosso e q = è un fienile; è evidente che \(p \rightarrow q\) dunque per la chiusura della conoscenza se so che p ed è vero che p implica q allora so che q. Vediamo cosa otteniamo con l'analisi di Nozick:
+	\begin{itemize}
+		\item So che p: se non fosse stato un fienile rosso, non si sarebbe presentato come un fienile rosso (in quanto l'alternativa rilevante in questo scenario è quella che sia un falso fienile blu) dunque non avrei creduto che è un fienile rosso. 
+		\item Non so che q: se non fosse stato un fienile sarebbe potuto essere un falso fienile, ed io avrei continuato a credere che era un fienile, dunque non so che è un fienile.
+	\end{itemize}	
+	  Ciò ci porta a dire che, per l'analisi di Nozick, so che p, è vero che \(p \rightarrow q\) e non so che q; è un esempio in cui la chiusura fallisce, ed è il più celebre caso che distrugge l'analisi di Nozick!
+\end{caso}
+Riassumiamo i punti pro e contro Nozick secondo Pritchard:
+\begin{table}[h!]
+	\begin{flushleft}
+		\begin{tabular}{ || c| c|| }
+			\hline
+			\textbf{Pro} & \textbf{Contro}\\
+			\hline
+			Risolve i casi Gettier & Rifiuta la chiusura della conoscenza\\
+			Implica la teoria delle alternative rilevanti & \'E sia troppo forte (Scivolo di spazzatura)\\
+			Argina gli scettici & \'E troppo debole (Simulatore di dolore)\\
+			\'E antifortuna & Non gestice il caso red barns\\
+			Risolve lo scetticismo e non rifiuta la chiusura&\\
+			\hline
+		\end{tabular}
+		\end{flushleft}
+\end{table}
+\subsection{L'analisi della prima posizione di Sosa}
+Dopo aver constatato l'inadeguatezza del pensiero di Nozick, Pritchard passa all'analisi del pensiero di Sosa (nella sua formulazione iniziale), che sostiene un'analisi della conoscenza alternativa (ma simile) a quella di Nozick poiché sostituisce la terza e quarta condizione di questo con la condizione della sicurezza: \\\\
+(3) La conoscenza deve essere sicura (safe)\\\\
+dove la definizione di sicurezza è specificata dalla seguente proposizione:\\\\
+\textit{Se S credesse che p, sarebbe vero che p}\\
+S crede che p $\boxright$ è vero che p.\\\\
+Se volessimo rendere la condizione della sicurezza nel linguaggio dei mondi possibili incappiamo in un'\textbf{ambiguità} poiché è possibile esprimerla come:\\\\
+\textit{Nella maggior parte / In tutti i mondi possibili vicini in cui l'agente crede che p, è vero che p}\\\\
+Torneremo in seguito su questo aspetto.
+\begin{osservazione}[Contrapposizione del condizionale congiuntivo]
+	Notiamo che la condizione della sicurezza è il contrapposto della terza condizione di Nozick:\\
+	$\neg$(Non è vero che p) $\boxright$ $\neg$(S non crede che p)\\
+	S crede che p $\boxright$ è vero che p\\
+	saremmo allora portati a credere che la (3) implica la condizione di sicurezza, per contrapposizione. Questo è falso perché non stiamo trattando un'implicazione materiale a un condizionale congiuntivo, per cui non è possibile la contrapposizione. Secondo Sosa lo scettico gioca sull'equivoco della contrapposizione per sostenere la validità della regola della sensibilità al posto di quella della sicurezza.
+\end{osservazione}
+\begin{osservazione}[Non confondere con la (4)]
+	Apparentemente la condizione della sicurezza assomiglia alla (4) di Nozick ma a ben vedere antecedente e conseguente sono invertiti. 
+\end{osservazione}
+Vediamo dunque quali sono i pregi ed i difetti di questa iniziale formulazione della posizione di Sosa. \\
+\textbf{Pregi}:
+\begin{itemize}
+	\item Risolve lo scivolo dei rifiuti, cioè la credenza che la spazzatura arrivi alla fine dello scivolo è sicura ma non sensibile poiché, se si accetta la versione debole (la maggior parte dei mondi possibili) allora è vero che nella maggior parte dei mondi vicini in cui l'agente crede che è arrivata, è vero che è arrivata.  
+	\item \'E antiscettica, poiché risolve il paradosso dell'ignoranza: secondo questa analisi infatti sappiamo di avere due mani e sappiamo contemporaneamente di non essere cervelli su $\alpha$-centauri poiché nella maggior parte dei mondi vicini in cui l'agente  crede di non essere un cervello, è vero che non lo è. L'antiscetticismo basato sulla sicurezza è anche detto "Neo-Mooreano" perché, analogamente alle tesi mooreane basate sul senso comune, attacca lo scettico sostenendo che un agente oltre ad avere conposcenza delle proposizioni ordinarie ha conoscenza delle negazioni delle ipotesi scettiche.
+	\item Non rinuncia alla chiusura, poiché risolvendo il paradosso dell'ignoranza non c'è bisogno delle modifiche di cui Nozick necessitava.
+\end{itemize}
+\textbf{Difetti}:
+\begin{itemize}
+	\item Banalità e leggerezza nella risposta agli scettici: molti darebbero ragione a Nozick quando dice che non possiamo avere certezza di non essere cervelli, il discorso della filosofia non coercitiva funzionava ed un'analisi che lo smentisce deve quantomeno spiegare il perché; per Pritchard \textbf{l'antiscetticismo di Sosa è fortuito} in quanto basato sulla convinzione innata dell'uomo di non essere un cervello e del fatto casuale che lo scenario dei cervelli ci appare lontano.
+	\item Instabilità: come visto, se si accetta la versione debole risolve lo scivolo di spazzatura ma con la versione forte (tutti i mondi possibili) non lo è; viceversa con la condizione debole non risolve il caso della lotteria, infatti nella maggior parte dei mondi vicini il biglietto è perdente (ma non per questo diremmo che sa di perdere) mentre con la versione debole lo risolve!
+\end{itemize}
+\subsection{L'epistemologia antifortuna}
+In un articolo del 2008 Pritchard prova a salvare l'analisi di Sosa tentando di risolvere i due difetti. Per farlo si basa sulla sua concezione generale: la conoscenza deve essere essenzialmente antifortuna e bisogna esplicitare in modo preciso questo approccio. La seguente interessante osservazione è a favore di questa posizione
+\begin{osservazione}[Gettier e la fortuna]
+	Ciò che i casi Gettier mettono in luce è a ben vedere il fatto che la teoria JTB non è antifortuna!
+\end{osservazione}
+Comincia quindi con il definire cos'è la fortuna:
+\begin{definizione}[Evento fortunato]
+ Un'evento è fortunato se e solo se:
+\begin{enumerate}
+	\item \'E importante per qualcuno
+	\item Si verifica nel mondo attuale ma non nella maggior parte dei mondi vicini
+\end{enumerate}
+\end{definizione}
+Osserviamo che il secondo punto è esattamente la negazione della condizione di sicurezza, infatti la negazione sarebbe "Si verifica nella maggior parte dei mondi vicini, ma non nel mondo attuale", visto che nei mondi in cui si verifica l'agente crede che p e se si verifica nel mondo attuale allora è vero, abbiamo: "Nella maggior parte dei mondi vicini l'agente crede che p, nel modo attuale è vero che p". Pritchard dunque, sostenendo che la conoscenza deve essere antifortuna, impone che la conoscenza deve rispettare la negazione della definizione di fortuna ed ottiene la sicurezza. Da ciò segue che la teoria di Sosa è antifortuna! 
+A partire da questo è possibile risolvere i due problemi precedenti:
+\begin{itemize}
+	\item La nostra insicurezza riguardo le nostre conoscenze, che ci porta a dare parte della ragione a Nozick è dovuta ad una manchevolezza della nostra conoscenza, che però non è sufficiente a smontare l'epistemologia antifortuna, forse riguarda altri difetti della conoscenza che ancora devono essere messi in luce ma è innegabile che l'epistemologia basata sula sicurezza è antifortuna. 
+	\item Per risolvere l'instabilità Pritchard introduce una complicazione nell'analisi di Sosa, consideriamo il seguente caso
+	\begin{caso}[Proiettile nel bosco]
+		Un'uomo in un bosco viene mancato dal proiettile di un cacciatore, sparato per sbaglio, di solamente un metro, è un caso fortunato. Se lo avesse lisciato di 1 millimetro sarebbe stato molto più fortunato, è dunque possibile introdurre una \textbf{scala di fortuna}.
+	\end{caso}
+	In questo modo possiamo prendere la versione forte dell'analisi di Sosa nell'insieme dei casi molto fortunati e quella debole nei casi moderatamente fortunati. In questo modo nel caso dello scivolo di spazzatura , essendo la caduta fallimentare moderatamente fortuita si applica la versione debole e nel caso della lotteria essendo la vincita estremamente fortuita si applica la versione forte. In termini di mondi possibili, se il caso è molto fortunato basterà allontanarsi di pochissimo dal mondo attuale perché questo non si verifichi mentre per quelli moderatamente fortunati ci si potrà allontanare di più. L'instabilità è risolta. 
+\end{itemize}
+Bisogna notare che l'analisi di Nozick e quella di Sosa sono simili per la maggior parte dei casi e anche per questo motivo ragioni analoghe a quelle viste per Nozick lo portano ad introdurre una relativizzazione ai metodi.
+
+\newpage
+\section{Ernst Sosa (1940-): epistemologia della virtù (il modello AAA)}
+Il testo fondamentale dell'epistemologia di Sosa è "Epistemologia della virtù" (2007) tratto da alcune conferenze e per questo poco sistematico. Inizialmente sostiene la posizione della sicurezza (prima conferenza) ma dalla seconda conferenza in poi espone l'epistemologia della virtù. Vi è un rimando chiaramente aristotelico (nonostante non ne faccia menzione esplicita): per Aristotele la virtù è una disposizione dell'anima (e non un abitudine) che si deve coltivare ed esercitare attivamente, distingue fra virtù etiche (riguardanti l'attività pratica) e dianoetiche (riguardanti la conoscenza); Sosa si interessa alle virtù etiche. Lo stesso Sosa per esporre il suo pensiero porta l'esempio aristotelico dell'arciere: 
+\begin{esempio}[Arciere]
+	Un arciere che sa fare il suo mestiere competentemente scocca una freccia al bersaglio: se colpisce il bersaglio la scoccata è accurata, la competenza dell'arciere è la disposizione ad avere successo in quest'azione. Se l'arciere competente scocca la freccia in modo appropriato ma una folata di vento sposta la freccia fuori traiettoria, ed un altra folata del tutto fortuita la rimette in traiettoria, allora la scoccata non è appropriata nonostante l'arciere sia competente e la scoccata accurata (la avrebbe colpita in condizioni ottimali). 
+\end{esempio}
+Questo esempio serve ad introdurre il modello delle tre A: la credenza è conoscenza se e solo se
+\begin{enumerate}
+	\item \textbf{Accurate} (vera): l'accuratezza della scoccata fa sì che sia vero il fatto che il colpo ha centrato il bersaglio
+	\item \textbf{Adroit} (vi è competenza epistemica): analogia ala competenza nella scoccata dell'arciere
+	\item \textbf{Appropriate} (è vera perché vi è competenza epistemica e non per altri fattori): nel caso della folata l'arciere è comunque competente ed il colpo è comunque accurato, nonostante tutto il fatto di aver centrato il bersaglio non è riconducibile alla sua competenza ma ad un colpo di fortuna (Accurate and Adroit ma non Appropriate).
+\end{enumerate}
+Si osservi che (3) implica (1) e (2). Se però si riducesse la conoscenza al rispettare queste tre condizioni si avrebbe una concezione rudimentale di questa: anche un animale potrebbe avere conoscenza appropriata! Questo primo tipo di conoscenza è detta \textbf{animale}. La conoscenza intesa nella sua accezione più alta è detta \textbf{riflessiva} ed è esprimibile come "credenza appropriata appropriatamente notata", o in altri termini l'agente oltre ad avere conoscenza animale è in grado di difendere la sua conoscenza. Espandendo questo concetto, la conoscenza riflessiva è una \textbf{meta credenza}: devo ascendere ad un piano superiore e riflettere sulla conoscenza. Se la meta credenza è appropriata allora la credenza costituisce conoscenza. Formalmente potremmo scrivere
+\[K^+p \Leftrightarrow KKp\] 
+dove K indica la conoscenza animale e \(K^+\) quella riflessiva: avere conoscenza animale della propria conoscenza animale che p implica la conoscenza riflessiva che p (non c'è regresso all'infinito perché è possibile soddisfare la conoscenza riflessiva al secondo step senza andare oltre). Nel passare dalla concezione della conoscenza come sicurezza al modello AAA Sosa ne evidenzia i rapporti: innanzitutto mostriamo che non sono equivalenti considerando l'esempio dell'arciere: 
+\begin{caso}[Arciere drogato]
+	Se l'arciere assume una sostanza che può compromettere le sue capacità ma ne assume l'esatta quantità limite per non avere effetti, per AAA l'arciere è competente ed il tiro sarà accurato in virtù di ciò, dunque è appropriato; secondo lo schema della sicurezza esistono mondi possibili vicini in cui eccedeva di poco la dose e la scoccata non era competente, ma comunque colpiva il bersaglio per condizioni fortunate, si sarebbe creduto che la scoccata era appropriata quando non lo era, dunque non è sicura.
+\end{caso}
+\subsection{Sosa e il problema del sogno}
+Il caso del sogno è un punto che fa apparentemente vacillare il modello e Sosa deve difendersi da queste accuse
+\begin{caso}[Il sogno]
+	Come posso affermare che è possibile conoscenza riflessiva se non posso esser sicuro di non essere in un sogno? Si osservi che se ci formuliamo credenze false all'interno del sogno comunque viene a mancare l'adroitness (la competenza epistemica è intaccata nel sogno) dunque la conoscenza animale non è intaccata da questo argomento. Tuttavia, nel caso della conoscenza riflessiva, lo scettico sostiene che non possediamo la competenza per discernere fra sogno e veglia dunque non possiamo avere meta-conoscenza! Effettivamente sembra avere ragione perché nel sonno siamo apparentemente convinti che quello che accade sia reale
+\end{caso}
+Nell'ambito della sicurezza (prima lezione) Sosa risolveva il problema dicendo che il sogno è immaginazione e non allucinazione: le credenze stanno nel sogno e non si riferiscono alla realtà. Dunque il sogno non costituisce un mondo possibile e non intacca la conoscenza sicura. Data la debolezza di questa argomentazione, nel modello AAA cerca di risolvere il problema del sogno con un diverso ragionamento. 
+Innanzitutto, per evidenziare le caratteristiche peculiari dell'argomento del sonno, vediamo il seguente caso, leggermente diverso
+\begin{caso}[Burlone e caleidoscopio]
+	Un tavolo può cambiare colore (cambiando le sue proprietà fisiche) a comando, questo tavolo si trova in una stanza, la cui illuminazione può cambiare, a comando. Un burlone gestisce entrambe le cose, quando S guarda il tavolo il burlone lo può fare convincere che il colore dipenda dalla luce e che il tavolo sia sempre dello stesso colore. Quando S guarda il tavolo però il burlone non è in azione. S ha conoscenza?
+\end{caso}
+Questo è un caso di conoscenza appropriata (ha la competenza di giudicare il colore e lo giudica correttamente in virtù di ciò) ma non sicura in quanto esistono mondi possibili in cui il burlone è attivo ed S crede a quello che dice in modo erroneo. Questo caso è ben gestito da AAA poiché questo sostiene che è possibile solo conoscenza animale (appropriata) ma non riflessiva poiché la meta-credenza non è appropriata, data l'esistenza del burlone. In particolare Sosa formula il seguente principio, che permette di determinare se la meta credenza è appropriata:
+\begin{principio}[C]
+	Per ogni credenza accurata (vera) che p, l'accuratezza di quella credenza (meta-verità) è dovuta ad una competenza solo se deriva dall'esercizio della competenza in condizioni adeguate, e quell'esercizio in quelle condizioni non avrebbe portato troppo facilmente a falsa credenza. 
+\end{principio}
+Nel caso precedente la credenza non è esercitata in condizioni adeguate, dunque la credenza non è appropriata (e dunque non è riflessiva). Torniamo ora ad analizzare il caso del sogno: dobbiamo chiederci qual è la competenza che esercitiamo per sapere che siamo svegli e non stiamo dormendo. Questa competenza non può basarsi sul sapere di essere consci perché anche nel sonno lo siamo, secondo Sosa le competenze che entrano in gioco nel determinare che siamo consci nel sogno e nella veglia sono diverse. In questo notiamo la differenza con il caso del burlone e del caleidoscopio: mentre in questo la competenza tirata in gioco è sempre quella relativa alla distinzione del colore sia che il burlone sia attivo che no, nel caso del sogno per Sosa (rifacendosi alla fine delle meditazioni di Cartesio e a "Sense and Sensibilia" di Austin) la facoltà usata per affermare che siamo consci è meno ricca e coerente rispetto a quella della veglia e qualitativamente differente. In questo modo può invocare il principio C e sostenere che la meta-credenza è appropriata solo se siamo svegli.\\
+Precisiamo che le epistemologie della virtù possono essere di vario tipo e Sosa sostiene una versione \textbf{affidabilista} di questa (approfondiremo questa posizione in seguito), secondo cui la competenza è una virtù essenzialmente innata; altre versioni dell'epistemologia della virtù sono più vicine ad Aristotele nella concezione della virtù come acquisibile e coltivabile.
+\newpage
+\section{Keith DeRose (1962-): il contestualismo}
+Il pensiero di DeRose è principalmente contenuto nella sua maggiore opera "Come risolvere il problema scettico?" (1995). De Rose comincia con il presentare l'argomento dell'ignoranza in termini simili a quelli visti e si propone di mostrare la falsità di questo, spiegando i motivi della sua plausibilità, senza rinunciare al principio di chiusura della conoscenza (conia il termine "congiunzioni abominevoli" in relazione alle proposizioni ottenibili dalla negazione della chiusura). DeRose individua due proposte preponderanti al suo tempo: quella sensibilista di Nozick e quella \textbf{Contestualista} (di cui De Rose è uno dei più convincenti esponenti); tuttavia singolarmente queste teorie non reggono, DeRose si propone di fonderle. 
+
+\subsection{Il contestualismo}
+Inizialmente in "Come risolvere il problema scettico?" DeRose presenta il contestualismo epistemico, secondo cui \textbf{il verbo "sapere" è sensibile al contesto}. Per capirlo è utile l'analogia con "Io"
+o "Qui" che rendono le proposizioni sensibili al contesto. "Io mi chiamo Giorgio Volpe" non possiede un valore di verità indipendentemente dal contesto ma dipende da chi lo dice, come anche "Qui piove" dipende dal tempo e luogo in cui è affermata. Allo stesso modo esistono diversi standard di sapere a seconda del contesto: in un contesto ordinario gli standard sono bassi ed è sufficiente escludere le alternative più rilevanti in modo grossolano; in contesti filosofici invece gli standard possono elevarsi a tal punto che è impossibile soddisfarli. Sosa in questo cede più terreno agli scettici rispetto a Nozick, arrivando ad affermare che in alcuni contesti questi hanno semplicemente ragione. Nonostante l'esistenza di diversi standard non vi è contraddizione, come nel caso di "Io mi chiamo Giorgio Volpe". La verità dipende dalla relazione della proposizione col contenuto (esternismo) ma la relazione cambia a seconda del contesto. La concezione puramente contestualista tuttavia non adempie all'obiettivo di DeRose in quanto da questo punto di vista tutte le premesse dell'argomento dell'ignoranza non sono soddisfacenti (dunque non si riesce a spiegare la plausibilità di questo).
+
+\subsection{Plausibilità del paradosso dell'argomento scettico}
+Nel paragrafo 10 dell'opera DeRose afferma di voler accettare fermamente la seconda premessa scettica. Prima di arrivare a questa conclusione svolge una digressione sui \textbf{condizionali comparativi}. Nota innanzitutto che questi non dipendono dal contesto, ad esempio\\
+\textit{Se A è alto, allora B è alto}\\
+prescinde dal contesto: in qualunque contesto ci si trovi, se il concetto di alto è definito allora vale la relazione di comparazione. A partire da questa idea, applica la comparazione alla conoscenza introducendo una relazione di ordine fra le posizioni epistemiche secondo l'altezza degli standard di conoscenza imposti da un certo contesto. Inoltre osserva come si possa sfruttare il condizionale comparativo per costruire un test con cui comparare la forza epistemica di due posizioni epistemiche A e B:\\
+\textit{Se S sa che p in A, allora S sa che p in B}\\
+valida se A è una posizione epistemica più forte di B. In questo modo si ha un test per comparare la forza delle posizioni epistemiche. 
+\begin{esempio}[Fienili]
+	Se nel caso dell'esistenza di un unico fienile reale e molti falsi S sa che un certo fienile è quello vero (scenario in cui gli standard di conoscenza sono molto alti) allora lo saprà anche in uno scenario semplice in cui c'è solo un fienile ed è vero.
+\end{esempio}
+Per analogia, DeRose propone la possibilità di usare questa forma comparativa anche usando proposizioni diverse (chiaramente valido solo per alcune coppie p e q):\\
+\textit{Se S sa che p, allora S sa che q}\\
+prendendo il contrapposto:\\
+\textit{Se S non sa che q, allora non sa che p}\\
+osserviamo che questa è esattamente la seconda premessa dell'argomento dell'ignoranza: \textit{Se non so di non trovarmi in uno scenario scettico, allora non so che ho due mani}. Capiamo ora l'intento di DeRose: giustificare la plausibilità delle posizioni scettiche.
+\subsection{Nozick in chiave contestualista}
+Prosegue dunque presentando tre coppie di proposizioni "epistemologicamente misteriose" tali che è possibile sapere la proposizione O senza sapere non-H:
+\begin{enumerate}
+	\item Non sono un cervello in una vasca (non-H) \\ Ho due mani (O)
+	\item Quegli animali non sono solamente dei muli dipinti (non-H) \\ Quegli animali sono zebre (O)
+	\item  Il giornale non è in errore riguardo la vittoria dei Bulls di ieri sera (non-H)\\ I Bulls hanno vinto la partita ieri sera (O)
+\end{enumerate}
+La posizione di DeRose afferma sostanzialmente che in alcuni contesti è possibile sapere di avere due mani senza sapere di non essere un cervello in vasca, mentre in altri contesti non è possibile sapere di non avere due mani senza sapere di non essere in uno scenario scettico ponendosi in accordo con gli scettici (passando per l'analisi di Nozick senza rifiutare la chiusura). Vediamo dunque come giustifica questa posizione. Innanzitutto definisce con più rigore la nozione di "forza" di una credenza in termini di mondi possibili:\\
+\textit{Tanto più grande è l'insieme in cui possiedo conoscenza, tanto più questa sarà forte (intuitivamente poiché deve reggere a più scenari).} \\
+Tornando all'esempio precedente, sapere di avere due mani non richiede forza epistemica perché i mondi in cui non ho due mani e so di non avere due mani sono molto vicini al nostro; nel caso dei cervelli invece il mondo in cui sono un cervello e so di esserlo è molto lontano dunque serve estrema forza epistemica. In termini dell'analisi della conoscenza di Nozick, da quanto appena detto segue che la proposizione "ho due mani" è sensibile (soddisfa la condizione: "se non avessi due mani saprei di non averle") anche con conoscenza poco forte mentre per essere la credenza dei cervelli sensibile servirebbe una conoscenza enormemente forte. Tuttavia DeRose rifiuta il sensibilismo ed introduce la prospettiva contestualista mediante la \textbf{regola di sensibilità}:
+\textit{Il solo fatto di \textbf{asserire} "S sa che p", fa innalzare gli standard di conoscenza, talvolta al punto da richiedere che la conoscenza sia sensibile}\\
+La richiesta di sensibilità è giudicata molto forte, in quanto ad esempio non riesce a gestire casi come quello dei cervelli nella vasca, in cui Nozick dava ragione agli scettici. Per DeRose invece l'asserzione "S sa che p" (e dunque l'uso della parola sapere) varia a seconda del contesto, e il suo significato dipende dagli standard imposti dal contesto, se NON si asserisce "S sa che p" gli standard restano bassi ed S può affermare più facilmente di sapere che p.
+\begin{esempio}[cervelli in vasca]
+	La costruzione di DeRose serve essenzialmente a costruire un concetto di conoscenza corrispondente al senso comune: in contesti normali nessuno pone il dubbio di essere cervelli in vasca dunque gli standard di conoscenza sono bassi e chiunque affermi di sapere di avere due mani ha ovviamente ragione poiché la relazione da considerare è soddisfatta. Se però in contesti filosofici particolari ci si dovesse chiedere se sappiamo di non essere cervelli in una vasca allora DeRose concorda con Nozick sull'impossibilità del sapere. 
+\end{esempio}
+In questo modo, oltre a poter affermare che in certi contesti è possibile la conoscenza anche senza esser certi di non essere in uno scenario scettico, è possibile spiegare il perché della plausibilità dello scenario scettico. Secondo DeRose lo scettico procede come segue:
+\begin{itemize}
+	\item Formulare una proposizione tale che non-H è almeno tanto forte quanto O
+	\item La credenza di non-H non è sensibile 
+	\item Argomenta che data la non sensibilità di non-H e e la regola della sensibilità, si innalzano gli standard e lo scettico ha ragione, riguardo questi standard.
+\end{itemize}
+Nel caso dei cervelli infatti abbiamo già osservato come "ho due mani" sia meno forte di "non sono un cervello in vasca" e che quest'ultima non è sensibile in quanto se fossi un cervello in vasca non è detto che crederei di esserlo (per la presenza dei super psicologi che mandano impulsi che ci fanno credere il contrario).
+\subsection{Confronto con le altre teorie}
+DeRose si confronta con le altre soluzioni "dirette" proposte al paradosso dell'ignoranza (dove l'aggettivo è dovuto al fatto che rifiutano direttamente uno dei punti): 
+\begin{itemize}
+	\item Contro la prima premessa: Neo-Mooreani
+	\item Contro la seconda premessa: Nozick
+	\item Contro la terza: scettici
+\end{itemize}
+Per un contestualista invece la seconda premessa è sempre vera perché basata su un comparativo (e dunque indipendente dal contesto) mentre se si hanno standard conoscitivi bassi 1 è falsa e 3 è vera mentre se si hanno standard alti 1 è vera e tre è falsa.\\
+Un problema che si tende a sollevare alla posizione contestualista (comune a tutte le tesi relativiste) è quello del \textbf{disaccordo perduto}: la soluzione appare infatti banale poiché sostiene che il disaccordo iniziale era solo apparente, dovuto solo ad una cattiva comprensione della parola "sapere". Il contestualismo di DeRose è basato sulla regola della sensibilità, che prende le mosse dall'analogia con i comparativi di conoscenze in mondi di forza epistemica diversa, che non è per niente banale. 
+\subsection{Metafisica e semantica}
+I primi anni successivi alla pubblicazione di queste tesi molte critiche furono fatte riguardo al fatto che la relazione fra agente e proposizione non può dipendere dal contesto perché è "in sè", metafisica. La risposta di DeRose, su cui oggi gli epistemologi concordano, è che l'introduzione del contestualismo rende necessaria la distinzione fra piano metafisico (della relazione in sè fra l'agente e la proposizione) e piano semantico, cioè relativo all'uso che comunemente si fa del verbo "sapere" (non a caso la parola "asserire" nell'esposizione della regola di sensibilità è in grassetto). In questo secondo caso appare plausibile che l'uso di un verbo possa dipendere dal contesto. Si osservi come in tutti i casi precedentemente trattati il piano metafisico e quello semantico coincidono mentre quando si introducono teorie della conoscenza più sofisticate, come quella contestualista, diventa necessario separare i due piani; da questo punto di vista non è scontato sostenere che esista un piano metafisico oltre quello semantico.
+\newpage
+\section{Alvin Goldman (1938-): l'affidabilismo}\label{sec:goldman}
+I precedenti autori come Nozick e Sosa si discostano dall'analisi tripartita tradizionale rifiutando la terza condizione della giustificazione. Andremo ora ad approfondire il pensiero di Goldman, già citato parlando di Nozick, a partire da un testo del 1979 che sostiene invece una nuova forma di analisi basata sulla giustificazione (intesa però in modo molto diverso da quello tradizionale). Un fatto fondamentale da tenere presente in questo discorso è che Goldman si restringe alle \textbf{conoscenze empiriche}, cioè formatesi dall'interazione del mondo esterno con i sensi (e non ad esempio conoscenze logiche o morali); abbiamo già osservato come Nozick stesso vedesse la sua opera come una generalizzazione del lavoro di Goldman per conoscenze non necessariamente empiriche. Nozick riprende di Goldman l'idea fondamentale dell'esternismo e della conoscenza come appropriato rapporto causale. Per vedere in che termini Goldman concepisce la giustificazione, e che ruolo gioca la causalità in questo contesto, presentiamo prima l'analisi della conoscenza di Goldman. 
+\subsection{L'analisi ricorsiva}
+Come detto, Goldman riprende l'analisi tripartita, dunque accetta le tre condizioni tradizionali, ma si impegna nel ridefinire il concetto di giustificazione. L'idea di base è di definirlo in termini \textbf{non epistemici}, cioè vuole che il concetto di conoscenza sia basato su concetti che esulano dall'epistempologia. Un'analogia esplicativa è, in campo morale, quella con l'utilitarismo: questa teoria fonda un concetto normativo quale quello di moralità su fatti che esulano dalla morale come ad esempio (in una formulazione basilare di questa teoria) il piacere e il dolore. Questa strategia non è originale ed a ben vedere anche gli altri autori già visti riescono a farlo. Per far ciò Goldman pensa di definire la giustificazione sfruttando la ricorsione. Per capire meglio la struttura di una definizione ricorsiva vediamo l'esempio dei numeri pari
+\begin{esempio}[numeri pari]
+Definiamo i numeri pari ricorsivamente:
+\begin{enumerate}
+\item Se \(x=2\) allora x è pari;
+\item Se x è pari allora \(x+2\) è pari;
+\item Nient'altro è pari.
+\end{enumerate}
+Osserviamo come le prime due condizioni siano solamente sufficienti e che il concetto di "pari" rientri nella seconda condizione formando apparentemente un circolo vizioso. In realtà grazie alla prima condizione non è tale ma anzi costituisce un modo costruttivo di definire i numeri pari. La terza condizione, detta "clausola di chiusura", rende le precedenti due necessarie e sufficienti.
+\end{esempio}
+Vediamo ora come applicare questo schema all'analisi della conoscenza: innanzitutto bisogna definire delle clausole di base, cioè trovare un insieme iniziale di credenze che costituiscono conoscenza (come l'insieme iniziale dei numeri pari, formato solamente dal 2). Per far ciò Goldman passa in rassegna alcune possibilità presenti in letteratura, come le proprietà di indubitabilità, auto-evidenza, incorregibilità... La strategia di Goldman per analizzare queste proposte è quella di disambiguarle e precisarne il significato per poi trovare dei controesempi (sempre possibile nei casi che considera). Il difetto di queste formulazioni è il fatto di considerare solo le proprietà istantanee della conoscenza, senza tener conto del modo in cui questa si sia formata (non sono immuni a Gettier). Lo stesso vale per la clausola ricorsiva, cioè la seconda condizione. La chiave risolutiva è quella di tenere in considerazione le cause che hanno portato alla formazione delle credenze.\\
+Goldman sostiene la posizione \textbf{affidabilista}, già citata con Sosa, secondo cui:\\
+\textit{Una conoscenza è affidabile se nella maggior parte dei casi porta a credenze vere}
+\begin{osservazione}[Terminologia]
+	Nonostante Goldman si riferisca alla sua con la locuzione "affidabilismo storico" (sottolineando l'importanza della "storia" della credenza) si usa vedere la sua posizione come quella del più puro affidabilismo. In particolare Goldman si oppone alle cosiddette teorie della "sezione al tempo attuale".
+\end{osservazione}
+\begin{osservazione}[Goldman ed il neopositivismo]
+	Si osservi come nel dire "la maggior parte" si introduca una vaghezza nella definizione, che per Goldman deve rispecchiare la vaghezza dell'uso corrente del termine sapere, anzi è un pregio che ne tenga conto (dunque Goldman si pone fra i fallibilisti). In questo si pone in contrasto con la scuola neopositivistica (come ad esempio Carnap, del circolo di Vienna) secondo cui il filosofo deve tendere a disambiguare ed irregimentare il linguaggio. In passato questa posizione aveva perso seguito (emblematica l'evoluzione di Wittgenstein dal Tractatus alle Ricerche) ma oggi sta tornando in voga con l'"ingegneria concettuale".
+\end{osservazione}
+  Dicendo "nella maggior parte dei casi" Goldman presuppone un concetto frequentista di probabilità: eseguo il medesimo processo conoscitivo più volte e vedo la frazione di volte in cui questo porta a credenze vere. Per avere un'idea concreta vediamo il seguente esempio
+\begin{esempio}[Conoscenza visiva]
+	Consideriamo il processo conoscitivo di osservare e formarsi una credenza dal dato visivo. Da un lato potremmo vedere il processo come "type" nel senso di tipologia di processo con cui si conosce; d'altro canto potremmo interpretarlo come "token" cioè come acquisizione di dati unici (poiché ogni esperienza è irripetibile ed ogni acquisizione di dati diversa dalle altre"). Nella definizione di affidabilismo però bisogna considerare il processo conoscitivo come "type" in modo che questo sia ripetibile e sia possibile applicare la probabilità frequentista.
+\end{esempio}
+Fatte queste premesse, Goldman individua come processi di base con cui costruire la clausola di base i \textbf{processi conoscitivi immediati}, ad esempio quelli che provengono da un dato sensoriale (come nell'esempio della conoscenza visiva). Formula la definizione ricorsiva di giustificazione come segue:
+\begin{enumerate}
+	\item Se la credenza di S in p all'istante t è il risultato ("immediato") di un processo
+	indipendente dalla credenza che è affidabile (come il dato sensoriale), allora la credenza è giustificata.
+	\item Se la credenza di S in p all'istante t è il risultato (“mediato”) di un processo
+	dipendente dalla credenza che è condizionatamente
+	affidabile, e se le credenze (se ve ne sono) su cui opera tale processo nel	produrre la credenza sono esse stesse giustificate, allora la credenza è giustificata.
+	\item Altrimenti la credenza di S in p all'istante t non è giustificata.
+\end{enumerate}
+Notiamo che la prima condizione definisce un insieme iniziale di credenze che formano conoscenza, la seconda condizione permette di costruire, ricorsivamente, credenze che costituiscono conoscenza basandosi sulle conoscenze definite dalla prima condizione. La terza è la solita condizione di chiusura che rende le prime due necessarie. Infine Goldman osserva come le credenze che costituiscono conoscenza sono solo quelle in \textbf{relazione ancestrale} con conoscenze immediate, cioè se è sempre possibile ripercorrere la catena delle cause per giungere infine a conoscenze immediate.
+\subsection{Obiezioni a Goldman}
+\begin{itemize}
+	\item L'analisi della conoscenza di Goldman funziona bene se ci si restringe alle conoscenze empiriche poiché queste possono esser viste come immediate, ma non si concilia con il fatto che esistono conoscenze che non sembrano poter esser collegate a conoscenze immediate. Goldman risponde che a ben vedere tutte le conoscenze, anche quelle logiche, derivano da conoscenze immediate.
+	\item \'E possibile immaginare mondi possibili in cui credenze formate con processi conoscitivi sbagliati siano affidabili (esempio del mondo in cui le credenze ottenute per wishful thinking sono vere perché garantite da un genio benigno). Le possibilità di risposta sono 3: o accettare che la teoria è valida solo in condizioni normali, o sostenere che la giustificazione è sempre da intendersi in riferimento al mondo attuale (ma questo non avita il problema del risveglio di un genio benigno nel mondo attuale), o rifiutare l'artificialità della giustificazione (dovuta ad un agente come il genio benigno) o infine ripensare la teoria di Goldman come una spiegazione del nostro modo di usare la giustuificazione epistemica (e non una giustificazione epistemica in sè).   
+	\item  Nonostante questa teoria sia basata sull'esternismo resta il fatto che l'uomo talvolta è intuitivamente internista.
+\end{itemize}
+Focalizziamoci in particolare sull'ultimo di questi problemi, che sarà l'oggetto del dibattito dei prossimi due autori che tratteremo: il dibattito fra internismo ed esternismo. Goldman si rende conto che l'attuale analisi della conoscenza porta a situazioni controintuitive se si accetta l'istanza esternista tout court, per mostrarlo propone il seguente controesempio
+\begin{caso}[Bambino con amnesia]
+	Dei genitori (fonte affidabile d'informazioni) hanno buone ragioni per mentire al figlio dicendo che all'età di 7 anni ha avuto un'amnesia ed i ricordi che ha di quel periodo sono in realtà falsi. In figlio, nonostante l'affidabilità dei genitori, non gli crede. In questo modo il bambino si crea una credenza vera. Per l'analisi di Goldman i ricordi del bambino sono dedotti dall'esperienza, dunque sono frutto di un processo di conoscenza immediato e formano conoscenza. Intuitivamente però diremmo che il bambino non ha davvero conoscenza perché il modo in cui si forma la credenza è sbagliato (razionalmente avrebbe dovuto fidarsi dei genitori). 
+\end{caso}
+Goldman è d'accordo con l'intuizione internista secondo cui il bambino non ha conoscenza, propone dunque una formulazione alternativa della clausola di base:
+\begin{enumerate}
+	\item Se la credenza di S in p all'istante t è causata da un processo cognitivo
+	affidabile e non c’è alcun processo affidabile o condizionatamente
+	affidabile disponibile a S tale che, se fosse stato usato da S in aggiunta al
+	processo usato di fatto, S non avrebbe creduto in p all'istante t, allora la credenza di
+	S è giustificata.
+\end{enumerate}
+Dove per "processo disponibile" si intende un processo cognitivo che non richieda la ricerca di nuove prove. Questa è la proposta definitiva di Goldman in ambito epistemologico. Vediamo che il caso precedente è ben gestito da questa correzione poiché se il bambino avesse usato il processo cognitivo affidabile di fidarsi della parola dei genitori (in aggiunta al processo usato di fatto di fidarsi della propria esperienza) allora avrebbe creduto di avere l'amnesia e dunque la credenza non è giustificata.
+\subsection{Giustificazione doxastica e proposizionale per esternisti ed internisti}
+Nel discorso epistemologico degli esternisti il tipo di giustificazione preso in esame è sempre quella doxastica in quanto è legata all'affidabilità, dunque in generale gli esternisti prendono come primitiva la definizione di giustificazione doxastica per poi ricavare la definizione di giustificazione proposizionale. \'E interessante notare come nel caso internista la situazione sia ribaltata: prima viene la giustificazione proposizionale e poi quella doxastica. Goldman, da esternista, definisce la giustificazione proposizionale come:\\\\
+\textit{Si ha conoscenza proposizionalmente giustificata se si ha a disposizione un processo conoscitivo che condurrebbe l'agente ad una conoscenza doxasticamente giustificata}.\\\\ 
+Si osservi però che questa definizione non coincide con la concezione internista poiché per questi ultimi è possibile avere conoscenza proposizionale indipendentemente dall'esistenza di una giustificazione doxastica mentre nella definizione la giustificazione proposizionale esiste sempre in relazione a quella doxastica.
+\begin{osservazione}[Terminologia]
+	Goldman scrive in un periodo in cui gli aggettivi doxastica e proposizionale, in relazione alla giustificazione, non si erano ancora affermati; usa invece giustificazione "ex post" per quella doxastica ed "ex ante" per quella proposizionale.
+\end{osservazione}
+\newpage 
+\section{Laurence Bonjour (1943-): una critica all'esternismo}\label{sec:Bonjour}
+\subsection{Coerentismo e Fondazionalismo}
+Bonjour ha avuto un radicale cambiamento di posizione riguardo la giustificazione epistemica durante la sua vita: inizialmente fu un forte sostenitore del coerentismo (questo è il Bonjour su cui noi ci focalizzeremo, in particolare il Bonjour del 1980) ma in seguito è passato a posizioni fondazionaliste; approfondiamo questi due concetti. 
+\begin{itemize}
+	\item Il \textbf{fondazionalismo} è la posizione filosofica secondo cui tutta la conoscenza è basata su un inieme di conoscenze di base fondamentali ed ingiustificabili, mediante le quali è possibile giustificare, usando regole appropriate (ad esempio appellandosi al principio di chiusura della giustificazione secondo cui la giustificazione si trasmette inferenzialmente), tutta la conoscenza. Un'esempio è la posizione di Aristotele riguardo le fondamenta della ragione nelle forme logiche di base, o quella di Cartesio (il più celebre dei fondazionalisti) che fonda il sapere nell'esistenza del cogito, autoevidente. In generale secondo questa posizione è sempre possibile, a partire da ogni conoscenza, regredire fino alle fondamenta. Interessanti sono le moderne critiche al fondazionalismo fra le quali quelle di Richard Rorty e Gianni Vattimo (l'ermeneutica dovrebbe poter portare ad un'alternativa al fondazionalismo). Si osservi che Goldman è un fondazionalista in quanto, nel formulare la definizione di giustificazione in modo ricorsivo, individua nelle conoscenze immediate l'insieme delle fondamenta. 
+	\item Il \textbf{coerentismo}, in opposizione al fondazionalismo, sostiene che una credenza è giustificata se funziona bene con tutte le altre credenze o, più precisamente, se è membro di un insieme di conoscenze coerenti. Il coerentismo non individua un insieme di base da cui partire per la giustificazione. Il punto a favore di questa tesi è che risolve il problema del regresso all'infinito del fondazionalismo che sorge dalla domanda "quali sono le fondamenta delle fondamenta?". Le classiche risposte dei fondazionalisti a questa obiezione sono l'appello all'intuizione ed alla apprensione immediata, difficili da esporre in modo plausibile.
+\end{itemize}
+Lo stesso Bonjour nella fase coerentista si oppone al fondazionalismo con due tipi di regressi: uno del tipo già visto ed un'altro riassunto come segue
+\begin{enumerate}
+	\item La giustificazione ha a che fare con la verità 
+	\item La giustificazione è un concetto \textbf{normativo}, che riguarda cioè i nostri obblighi in quanto esseri razionali
+	\item Il tratto distintivo di una credenza di base è di avere in sè le ragioni per cui l'agente debba credervi (per essere razionale)
+	\item Ne segue che la giustificazione delle credenze di base sta già nell'agente che vi crede in quanto razionale
+	\item Infine otteniamo che una credenza di base è giustificata se e solo se l'agente crede giustificatamente che: tale conoscenza sia di base, le conoscenze di base sono vere
+	\item Ecco arrivati al regresso: le conoscenze di base non sono più tali perché devono essere giustificate da altre credenze!
+\end{enumerate}
+Bonjour vuole avvalorare questa critica al fondazionalismo confutando tutte le risposte possibili al suo argomento. La giustificazione classica dell'immediatezza delle conoscenze di base al tempo di Bonjour era fortemente criticata (nonostante oggi sia tornata in voga) e non la prende quasi in considerazione; passa dunque a considerare l'esternismo, in quanto questo costituisce una soluzione alternativa al problema fondazionalista del regresso. L'esternista, a difesa del fondazionalismo, può infatti dire che la ragione per cui una credenza di base non è necessariamente accessibile riflessivamente all'agente ma è sufficiente che vi sia una correlazione fra credenza e la loro verità tale che le credenze siano nella maggior parte dei casi vere(dunque l'agente non deve necessariamente essere in grado di argomentare la credenza nelle fondamenta).
+\begin{osservazione}[Giustificazione e contesto storico]
+Il titolo dell'opera in cui Bonjour tratta questi temi è "Le teorie esterniste della conoscenza empirica" (1980) ma il tema trattato è la giustificazione e non la conoscenza in generale. la scelta del titolo non è casuale, infatti al tempo in cui scriveva Bonjour si era riaffermata la visione per cui la conoscenza deve necessariamente passare per la giustificazione (a seguito dell'articolo di Goldman del 1979).
+\end{osservazione}
+\subsection{Una formulazione adeguata dell'esternismo}
+Come esempio paradigmatico di esternismo riguardo le conoscenze non inferenziali di base, Bonjour considera la posizione di Armstrong della "\textbf{teoria termometrica della conoscenza}": come un termometro che sotto opportune condizioni è un metro affidabile della reale temperatura esterna, allo stesso modo un'agente che abbia conoscenza ha credenze correlate in modo affidabile con la realtà dei fatti. Le adeguate condizioni che devono essere rispettate perché l'agente sia effettivamente affidabile sono riassunte nella "proprietà H" (chiaramente variabile a seconda delle circostanze). Bonjour sottolinea la novità delle tesi esterniste che, appena introdotte, suscitarono grande scalpore; si trova addirittura in difficoltà nell'attaccarle per la loro lontananza dalle posizioni tradizionali. Prima di procedere a criticare l'esternismo, non essendoci ancora al tempo una versione generalmente accettata di questo, Bonjour tenta di formularlo nel migliore dei modi (ottima prassi filosofica), analizzando i seguenti quattro celebri \textbf{casi della chiaroveggenza}. I primi tre servono a preparare la formulazione dell'esternismo mentre il quarto serve a confutarlo. 
+\begin{osservazione}[Non esistenza della chiaroveggenza]
+Ai fini del nostro discorso non è rilevante che la chiaroveggenza esista o meno o che, in generale, i casi formulati siano realistici, poiché l'epistemologia si pone il proposito di fondare la conoscenza per tutti i mondi logicamente possibili e non solo per quello attuale. L'importante è che i casi non siano metafisicamente o logicamente contraddittori.
+\end{osservazione}
+\begin{caso}[chiaroveggenza 1]
+	Samantha crede correttamente, senza ragioni pro o contro, di essere una chiaroveggente. Esercitando il suo potere, in condizioni in cui risulta affidabile, si forma la credenza corretta, contro tutte le prove (i servizi di sicurezza lo tengono nascosto diffondendo false notizie), che il presidente si trovi a New York.
+\end{caso}
+Intuitivamente Samantha si comporta irrazionalmente perché si forma una credenza su basi non giustificate (la sua chiaroveggenza) tuttavia secondo le condizioni di Armstrong possiede conoscenza perché, in condizioni adeguate, fa da "termometro" in modo corretto. Da questa contraddizione segue la necessità di aggiungere una clausola all'esternismo di Armstrong:\\\\
+\textit{Non vi deve essere nessuna prova contro l'evidenza in questione} (la presenza del presidente a New York nel nostro caso). 
+\begin{caso}[chiaroveggenza 2]
+	Casper crede correttamente, senza ragioni e nonostante i fallimenti passati, di essere chiaroveggente. In condizioni affidabili si forma la credenza corretta che il presidente è a New York, contro tutte le prove. 
+\end{caso} 
+Contrariamente al caso precedente, Casper ha testato la sua facoltà ed ha fallito, nonostante sia effettivamente un chiaroveggente (i test sono stati effettuati quando le condizioni non erano adeguate ad esempio). Il suo comportamento è dunque irrazionale 
+\begin{caso}[chiaroveggenza 3]
+	Maud crede correttamente, senza ragioni e nonostante varie prove scientifiche contrarie a lei pervenute, di essere chiaroveggente. In condizioni affidabili si forma la credenza corretta che il presidente è a New York, contro tutte le prove. 
+\end{caso} 
+In questo caso Maud non ha effettuato test come nel precedente ma ha comunque acquisito informazioni (da mezzi affidabili) contrarie alla sua credenza. Questi ultimi due casi soddisfano, analogamente al primo, le condizioni di Armstrong ma anche questi intuitivamente non costituiscono conoscenza. Bonjour propone dunque la seguente integrazione:\\\\
+\textit{Non vi deve essere nessuna prova contro la possibilità della chiaroveggenza in generale o contro il possesso della chiaroveggenza da parte del soggetto}\\\\
+Siamo dunque arrivati alla miglior formulazione possibile dell'esternismo secondo Bonjour, è possibile ora passare alla critica
+\begin{caso}[chiaroveggenza 4]
+	Norman è un chiaroveggente del tutto affidabile, ma non ha prove o ragioni né pro né contro la possibilità della chiaroveggenza in generale o l’ipotesi che egli abbia tale potere. Esercitando il suo potere in condizioni in cui risulta affidabile crede correttamente – (in assenza di qualunque prova pro o contro) – che il presidente si trovi a New York.
+\end{caso} 
+Norman soddisfa tutte le condizioni precedenti e la condizione di Armstrong, dunque possiede conoscenza della posizione del presidente (a differenza del primo caso non ci sono informazioni contrarie alla presenza del presidente a New York). Nonostante ciò intuitivamente continua ad essere implausibile che Norman abbia conoscenza, da ciò si deduce che l'esternismo fallisce. Per convincerne consideriamo i due casi possibili:
+\begin{itemize}
+	\item Norman crede alla sua chiaroveggenza: comportamento irrazionale perché non ha prove a favore o contro la sua chiaroveggenza
+	\item Norman non crede alla sua chiaroveggenza: comportamento irrazionale perché non è in grado di giustificare la sua credenza. 
+\end{itemize}
+Il problema dell'esternismo è dunque evidente:\\\\
+\textit{Perché il semplice fatto che si da una relazione esterna del tipo appropriato dovrebbe significare che la credenza di Norman è epistemicamente giustificata, quando la relazione in questione è totalmente al di là della sua comprensione?}\\\\
+ma allora perché l'esternismo appare così convincente? Bonjour sostiene che ciò è probabilmente dovuto al fatto che rende \textbf{non accidentale} la verità della credenza acquisita dal soggetto, tuttavia ciò è vero solo per uno spettatore esterno: noi sappiamo che Norman è un chiaroveggente affidabile dunque l'esternismo ha senso ma per l'agente ciò non è vero, dal suo punto di vista la credenza è accidentale.
+\subsection{Due ulteriori argomenti contro l'esternismo}
+\begin{itemize}
+	\item In analogia con la morale, propone un parallelismo con l'utilitarismo: secondo un "esternista morale" chi compisse l'azione utilitaristicamente migliore ma con le peggiori intenzioni sarebbe giustificato.
+	\item Se Norman, oltre alla credenza basata sulla chiaroveggenza e riguardante il presidente, avesse anche una credenza corretta, ottenuta con mezzi convenzionali affidabili ma non sufficienti a costituire conoscenza (ha qualche buona ragione ma non la certezza), riguardo la presenza del procuratore a Chicago. Chi ha più possibilità di avere conoscenza (cioè qual'è più probabile di essere vera)? Intuitivamente è la seconda ma per gli esternisti la prima (perché questa soddisfa le condizioni di Armstrong corrette, a differenza della prima)!
+\end{itemize}
+
+\newpage
+\section{Jhon Greco (1961-): una critica all'internismo}
+Le seguenti posizioni sono esposte nel saggio del 2005 "Le teorie esterniste della conoscenza empirica". Si noti innanzitutto come i termini del discorso  siano cambiati nel corso dei 25 anni che intercorrono fra il saggio di Bonjour e quello di Greco: le divergenze fra internismo ed esternismo si sono sfumate (avvicinandosi) ed articolate. In particolare è fondamentale notare che la distinzione fra internismo ed esternismo differisce nei due autori, come vedremo a breve. 
+
+
+
+Secondo Greco la giustificazione è un concetto di tipo \textbf{normativo} in quanto il fatto che un agente abbia conoscenza ha una connotazione positiva, l'internismo è la tesi sulla natura di tale normatività epistemica che sostiene sia basata su fattori unicamente interni all'agente. Le tesi proposte da Greco in questo saggio sono quattro:
+\begin{itemize}
+	\item L'internismo è una tesi logicamente debole mentre l'internismo è forte:\\
+	Greco caratterizza l'internismo come segue\\\\
+	\textit{L'internismo è la tesi secondo cui tutti i fattori che determinano la normatività epistemica sono interni}\\\\
+	l'internismo invece è caratterizzato come la negazione della precedente tesi\\\\
+	\textit{L'esternismo è la tesi secondo cui almeno un fattore che determina la normatività epistemica è esterno}\\\\
+	ne segue chiaramente  che l'internismo è più difficile da difendere dell'esternismo. Notiamo che mentre per Bonjour è possibile la presenza di fattori esterni in ambito internista, Greco rifiuta questa possibilità, questa differenza è dovuta all'intervallo di tempo fra i due autori. Nonostante la differenza di definizioni (e dunque linguistica) la disputa fra i due è concettuale e non meramente verbale.  
+	\item Mentre Bonjour presuppone che internismo ed esternismo vadano di pari passo su credenza e giustificazione (poiché al suo tempo conoscenza e giustificazione erano strettamente legati) Greco sostiene che è possibile essere esternisti su un fronte ed internisti sull'altro in modo indipendente e senza contraddizioni. 
+	\item Bisogna caratterizzare meglio l'internismo. Quando Bonjour scriveva la versione dell'internismo preponderante è quella che successivamente si è chiamata \textbf{accessibilismo} secondo cui cio che è interno è ciò che è accessibile al soggetto. Più recentemente però si è imposta una nuova concezione, detta \textbf{mentalista}, secondo cui è interno ciò che fa parte della psicologia dell'agente. Se si assume la tesi tradizionale per cui si ha accesso riflessivo immediato ai propri stati interni allora le due tesi coincidono, ma questa tesi non è banale da accettare (oggi è rifiutata dai più). Questa distinzione però è ininfluente per le tesi di Greco che sono valide per entrambe le versioni. 
+	\item Alcune valutazioni epistemiche sono palesemente esterniste. Greco distingue due categorie di valutazioni epistemiche: quelle basate sul \textbf{buon adattamento} e quelle basate sull'\textbf{appropriatezza soggettiva}; le prime hanno a che fare con la relazione delle credenze dell'agente col mondo mentre le seconde hanno a che fare con 
+	\begin{caso}[Studente di storia]
+		Uno studente studia storia da un manuale menzognero perché influenzato dalla propaganda. Lo studente si forma credenze false ma non è biasimabile epistemicamente: le conoscenze sono giustificate ma non costituiscono verità. Diremo che la credenza è soggettivamente appropriata (cioè giustificata).
+	\end{caso}
+	Osservando che l'internismo sembra particolarmente adatto alla seconda categoria di giudizio epistemico Greco sostiene che l'internismo è la tesi sui fattori che determinano l'appropriatezza di una credenza. D'altro canto le valutazioni di buon adattamento sono palesemente esterniste per Greco. 
+\end{itemize}
+La tesi che svolge Greco è che anche le valutazioni epistemiche di appropriatezza soggettiva (di qualche rilevanza) presentano qualche fattore esternista (e dunque non sono interniste, l'internismo è falso). Per confutare l'internismo greco comincia a presentare tre formulazioni di internismo, per poi presentare degli argomenti a sfavore. 
+\subsection{Primo argomento}
+La prima formulazione considerata è analoga alla tesi di Bonjour, questa mette in evidenza la premessa internista che la giustificazione sia strettamente connessa alla responsabilità epistemica, secondo il seguente schema:
+\begin{enumerate}
+	\item Una credenza c è giustificata epistemicamente per un'agente S se e solo se credere c da parte di S è epistemicamente responsabile.
+	\item La responsabilità epistemica è esclusivamente una questione di fattori interni alla prospettiva di S.
+	\item La giustificazione epistemica è esclusivamente una questione di fattori interni alla prospettiva di S.
+\end{enumerate}
+Greco concede la (1) ma rifiuta la (2) sostenendo che c'è sempre almeno un fattore esterno. Per farlo presenta tre casi:
+\begin{caso}[Maria e il cantante]
+	Maria crede erroneamente che un cantante inglese sia italiano. Lo crede poiché glielo ha detto la madre, che ha il pregiudizio che tutti i cantanti bravi siano italiani (crede che questo cantante sia bravo), Maria è consapevole del pregiudizio della madre ma inizialmente per qualche motivo vi ha creduto e poi si è dimenticata della fonte di questa credenza. La credenza è giustificata? Diremmo di no perché è epistemicamente irresponsabile in quanto Maria è stata negligente nel credere la madre conscia del suo pregiudizio. TUTTAVIA per Greco ciò che rende le credenza epistemicamente irresponsabile non è più accessibile a Maria (poiché se ne è dimenticata) e dunque è esterna ad essa. Dunque vi sono fattori esterni riguardanti la responsabilità epistemica. 
+\end{caso}
+Greco dunque torna alla distinzione fra giustificazione doxastica e proposizionale, esemplificata dal seguente caso: 
+\begin{caso}[Studente di matematica]
+	uno studente conosce gli assiomi necessari a dimostrare un teorema ma si forma la credenza riguardo la verità del teorema per motivazioni erronee, che esulano dalla conoscenza degli assiomi. Lo studente dunque possiede le buone ragioni per credere il teorema e possiede anche la credenza vera riguardo il teorema, ma non usa le prime per ottenere la seconda, dunque possiede giustificazione proposizionale ma non doxastica. Tradizionalmente per avere conoscenza è necessario avere giustificazione doxastica
+\end{caso}
+A ben vedere, le credenze di Maria e dello studente non sono giustificate poiché entrambi sono stati epistemologicamente irresponsabili. In entrambi i casi tuttavia l'irresponsabilità è legata a fattori esterni, da questo fatto Greco trae la morale che \textbf{l'eziologia conta} nel determinare la responsabilità epistemica.
+\subsection{Secondo argomento}
+Anche detto \textbf{nuovo problema del genio maligno}, è la tesi internista che riprende il problema scettico tradizionale per mostrare che i fattori che determinano la responsabilità epistemica sono esclusivamente interni. Possiamo esprimere questa tesi come segue:\\\\
+\textit{Soggetti simili hanno giustificazioni simili}\\\\
+L'internista sostiene che un agente vittima di un genio maligno non è biasimabile in quanto lo stato interno è responsabile, nonostante la credenza sia erronea a causa del genio maligno (dunque l'esternista non riesce a tener conto di questa sfumatura dovuta allo stato interno dell'agente). Greco risponde che due soggetti potrebbero essere internamente simili e tuttavia differire per la genesi delle loro credenze: se due agenti arrivano alla stessa prospettiva interna ma la prima in modo responsabile e la seconda in modo fallace. L'eziologia conta.\\
+Una possibile risposta a questo argomento è che l'argomento di Greco è valido solo se è sempre possibile trovare una responsabilità da attribuire all'agente.
+\subsection{Terzo argomento}
+Abbiamo visto che con l'esternismo è quantomeno possibile arginare le istanze scettiche, per l'internista questa è una banalizzazione del problema scettico. In particolare gli internisti criticano l'affidabilismo esternista a causa del problema dell'\textbf{easy knowledge} anche detto del \textbf{bootstrapping}: se vogliamo mostrare che una procedura percettiva è affidabile possiamo cercare un caso particolare in cui è facile acquisire conoscenza mediante questa procedura e costituire una statistica frequentista ripetendo molte volte la stessa acquisizione di conoscenza, in questo modo dimostriamo che il processo conoscitivo è affidabile. Questo modo di procedere esternista è chiaramente fallace. La posizione esternista, dal punto di vista internista, non è dunque riguardo la conoscenza ma cambia discorso, ridefinendo la conoscenza in modo errato.\\
+La risposta di Greco è che questo argomento si invalida da solo in quanto dal punto di vista internista non si risponde allo scetticismo ed è anzi impossibile arginarlo. Questo avviene perché internisticamente è necessario che, prima di usare un processo conoscitivo bisogna innanzitutto internamente verificare che questo processo sia affidabile (a differenza dell'internismo), questa richiesta forte porta ad un circolo: per verificare l'affidabilità del processo si dovrà usare un ulteriore processo conoscitivo, che dovrà ancora essere validato, e così via all'infinito.
+\subsection{Altre valutazioni di appropriatezza soggettiva non epistemiche}
+Dopo aver dimostrato che le valutazioni d'appropriatezza soggettiva relativi alla conoscenza sono sempre internisti Greco conclude mostrando che tutte le valutazioni di appropriatezza \textbf{interessanti} (non per forza legate alla conoscenza) sono di tipo esternista; approfondiamo il significato di "interessante" in questo contesto. Le attribuzioni di conoscenza servono ad individuare fonti di informazioni attendibili, dunque dire che S ha conoscenza equivale a dire che ha informazioni attendibili sulla realtà. Questa concezione è basata sull'idea di Craig secondo cui in uno stato epistemico di natura gli agenti S ed S' hanno accesso a conoscenze diverse ed S per estendere le proprie le attinge da S', diventa di fondamentale importanza identificare quale agente possegga informazioni affidabili sull'ambiente, nasce così il concetto di conoscenza. Questo modo di ragionare è di tipo generale e costituisce un modo alternativo di fare epistemologia rispetto a quello esposto in questo corso, che prende le mosse dal chiedersi quale sia la natura della conoscenza alla stregua dei contrattualisti, immaginando uno stato di natura epistemico. Greco riprende questa concezione per sostenere che la conoscenza è di sua natura legata ad informazioni relative all'ambiente e dunque dipenderà sempre da almeno un fattore esterno. Ciò non esclude la possibilità di effettuare valutazioni di appropriatezza unicamente relative a fattori interni ma per farlo dovremmo astrarre da tutti i fattori esterni e quello che rimarrebbe sarebbe privo di interesse.
+\subsection{Possibili risposte interniste a Greco}
+Un'internista potrebbe sostenere che le tesi di Greco hanno a che fare solo con la giustificazione doxastica ma la giustificazione proposizionale potrebbe comunque essere concepita unicamente in relazione a fattori interni. Inoltre il caso dello studente di storia non è più trattato da Greco e potrebbe costituire un problema per lui poiché non può sostenere sia un caso non interessante. Greco potrebbe sostenere la priorità, in ambito conoscitivo, della giustificazione doxastica su quella proposizionale. Allora l'internista potrebbe ribattere che la giustificazione proposizionale potrebbe avere interesse anche al di fuori della teoria della conoscenza. Inoltre Greco tralascia la conoscenza in prima persona e si focalizza su quella in terza persona, il caso in prima persona sembra gestibile solo in relazione ad elementi a cui ho accesso (interni) e lo scetticismo sembra avere a che fare con la conoscenza soggettiva, che l'internismo sembra non gestire al meglio. 
+\end{document}
